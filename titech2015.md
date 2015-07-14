@@ -16,7 +16,7 @@ http://twitter.com/yaskaz
 http://spysee.jp/中村保一/1034648/  
 京大→遺伝研→かずさ→遺伝研と「ゲノム」と「情報」を扱ってきています。  
 
-###情報リテラシー再入門
+###情報リテラシー再入門：検索
 
 ####google
 
@@ -145,7 +145,7 @@ link:www.titech.ac.jp
 3×2
 3の2乗
 ```
-【解答】上：3*2　下 3**2 （3^2　でも可)  
+【解答】上：3¥*2　下 3¥*¥*2 （3¥^2　でも可)  
   
 【課題】「8ルート3」の結果は何が得られると思いますか?  
 【解答】8 かける ルート３の結果ですね  
@@ -160,9 +160,9 @@ link:www.titech.ac.jp
   
 … だいぶお遊びが過ぎたので学術系にもどろう  
   
-####学術系論文等情報検索
+### 学術系論文等情報検索
 
-+ PubMed: http://pubmed.gov
+#### PubMed: http://pubmed.gov
   
 泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山
   
@@ -181,7 +181,7 @@ E. coli O111のゲノム関連論文を探してみよう
   
 【応用】: PubMedに収録されているすべての論文数を知りたい場合には？  
 本家: http://togotv.dbcls.jp/20071213.html (YouTube版: http://www.youtube.com/watch?v=Or5QeVMlzMQ ) を参照 (All[filter] で検索)  
-+ Google Scholar
+#### Google Scholar
   
 __学術系のgoogle検索: http://scholar.google.com__  
   
@@ -198,7 +198,7 @@ author:yasukazu-nakamura
   
 【応用】h-index (http://ja.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0) は学者の論文数と被引用数とに基づいて、科学者の科学的貢献度を示す指標です。google scholar を利用すると比較的簡単に h-index を出すことができます。引用の多い順に文献の検索結果がならんでいますので、被引用数が、リストの上からのカウントを上回ったらそのひとつ手前のカウントが h-index です。あなたのまわりのセンセイ方の戦闘能力を数値で定量比較してみよう。いっひっひ。  
   
-+ OReFiL: an Online Resource Finder for Lifesciences
+#### OReFiL: an Online Resource Finder for Lifesciences
   
 _ライフサイエンス分野の文献に記載されているウェブリソース(データベースやツールなど)を検索するならこれ: http://orefil.dbcls.jp/_  
   
@@ -207,7 +207,7 @@ _ライフサイエンス分野の文献に記載されているウェブリソ�
   
 See also: 統合TV「OReFiLを使ってライフサイエンス分野のwebリソースを検索する」 http://togotv.dbcls.jp/20070831.html  
 
-+ Allie: A Search Service for Abbreviation / Long Form
+#### Allie: A Search Service for Abbreviation / Long Form
   
 生命科学分野において利用されている略語とその展開形を検索するサービスです。   文献中に多く出現する略語は多義語であることが多く、特に専門外の読者には理解するのに困難を伴うことがあります。Allieはこの問題に対する一つの解となるよう開発されています http://allie.dbcls.jp/ja  
   
@@ -215,7 +215,7 @@ See also: 統合TV「OReFiLを使ってライフサイエンス分野のwebリ�
   
 See also: 統合TV「Allieを使って略語の正式名称を検索する」 http://togotv.dbcls.jp/20080522.html  
   
-+ difff: 日本語対応で簡単に差分が確認できるテキスト比較ツール
+#### difff: 日本語対応で簡単に差分が確認できるテキスト比較ツール
   
 論文や発表要旨を先生になおしてもらったときに、Word の履歴記録がオフになっていると、どこが変わっていたのかわからなくなったりします。difff はテキスト差分を簡単に確認できるツールです。コピペの発見もできちゃうからレポート提出時には要注意ですよ http://difff.jp  
   
