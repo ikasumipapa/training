@@ -178,6 +178,7 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
     3. さらにgenome を追加して「E. coli O111 genome」で検索  ⇒ 109 報まで絞り込まれる  
     4. 実際にどのようなタームに展開されて検索されているかは右カラムの「Datails」に表示されている (… MeSHってなんだ？＞ただちにぐぐろう）  
     5. より一層の絞り込みは上部のAdvancedから指定できる。たとえば「Title/Abstract」や「Author」「Publication Date」を指定するなどして絞りこめる  
+    ```
   
     【課題】 猫アレルギーの人が猫を飼うための猫洗いのテクニックを記述した学術論文を検索しなさい。(ヒント: wash allergy)  
     【解答】 cat wash allergy で検索し「Evaluation of different techniques for washing cats: quantitation of allergen removed from the cat and the effect on airborne Fel d 1.」に至る。１週間に１度、３分間お湯につけるのを２回繰り返すとよい  
