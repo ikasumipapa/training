@@ -68,10 +68,10 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
    Study of
    ```
   
-- 一歩すすんだ検索
-
+- 一歩すすんだ検索  
+  
    - OR検索 googleは「AND検索」つまり、キーワード全てを含む結果を行います。  
-      キーワードの一部を含んでいればいい場合=「OR検索」には文字通り「OR」を使います。  
+   キーワードの一部を含んでいればいい場合=「OR検索」には文字通り「OR」を使います。  
 
    【課題】以下の検索の意味と、検索結果（特に右上の検索結果数) を比較しましょう。どのように違いますか？  
    ```
@@ -103,19 +103,19 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
    Arabidopsis 2001..2006
    ```
   
-   - ¥− (マイナス) 特定のキーワードを除外
+   - \− (マイナス) 特定のキーワードを除外  
+  
    【課題】以下の検索結果数、内容を比較してみる
    ```
    東工大
    東工大 -東京工業大学
    ```
   
-   - filetype の活用【これ有用！】
+   - ファイルタイプ指定 (PowerPoint, PDF, Word書類, Excel書類, text, html) 【これ有用！】
    ```
    filetype:ppt, filetype:pdf, filetype.doc, filetype:xls, filetype:txt, filetype:html
    ```
-   ファイルタイプ指定 (PowerPoint, PDF, Word書類, Excel書類, text, html)  
-  
+   
    【課題】以下の検索を実行しましょう
    ```
    blast filetype:ppt
@@ -169,7 +169,7 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
 
 #### PubMed: http://pubmed.gov
   
-   泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山
+   泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山  
   
    E. coli O111のゲノム関連論文を探してみよう  
   
