@@ -170,7 +170,7 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
   
    泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山  
 
-   E. coli O111のゲノム関連論文を探してみよう  
+   - E. coli O111のゲノム関連論文を探してみよう  
 
    1. 検索窓に E. coli と入れてGoをクリック ⇒ Results: 1 to 20 of “331745” こんなに大腸菌論文がある  
    2. O111 を追加して「E. coli O111」で絞り込み検索する ⇒ 941 報まで絞り込まれる  
@@ -189,11 +189,11 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
 
 ------------------------------
 
-#### Google Scholar ####
+#### Google Scholar http://scholar.google.com ####
   
-** 学術系のgoogle検索: http://scholar.google.com **
-  
-   学術専門誌、論文、書籍、要約など、さまざまな分野の学術資料を検索。ISIと契約するお金がなくても、論文引用数の概数を知ることは可能。たとえば、NAKAMURA Yasukazu. さんの発表論文や講演要旨をさがしてみよう。  
+**学術系のgoogle検索**
+
+   - 学術専門誌、論文、書籍、要約など、さまざまな分野の学術資料を検索。ISIと契約するお金がなくても、論文引用数の概数を知ることは可能。たとえば、NAKAMURA Yasukazu. さんの発表論文や講演要旨をさがしてみよう。  
   
    ```
    author:yasukazu-nakamura
