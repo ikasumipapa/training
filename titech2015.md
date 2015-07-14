@@ -49,10 +49,10 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
 - 論文の題名の一部または全部でググる
   結構pdfがひっかかってきたりする。scholar （後述）へのリンクがトップにでてくる場合がありますね。  
   検索例：
-```
-Arabidopsis kinase
-Synechocystis sensory
-```
+   ```
+   Arabidopsis kinase
+   Synechocystis sensory
+   ```
   遺伝子のアクセッション番号や遺伝子名そのものでググる これが意外に使える。論文のサプリメントファイルが拾えたりする場合も。  
 
   検索例:
