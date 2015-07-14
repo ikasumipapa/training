@@ -138,7 +138,23 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
    ```
    link:www.titech.ac.jp
    ```
+   - 電卓・通貨 http://www.google.com/intl/ja/help/features.html#calculator  
   
+   ちょっと便利だったりする。乗算はアスタリスク、アスタリスクが２つでべき乗  
+  
+   【課題】以下を計算するにはどうしますか？
+   ```
+   3×2
+   3の2乗
+   ```
+   【解答】上：3\*2　下 3\*\*2 （3\^2　でも可)  
+    
+   【課題】「8ルート3」の結果は何が得られると思いますか?  
+   【解答】8 かける ルート３の結果ですね  
+  
+   【課題】「8の3乗根」を求める方法は？  
+   【解答】3rd root of 8　どうやら日本語の表記法は無いようです  
+    
    【参考】1000円を米ドルに  
    【参考】10億リットルを東京ドームで  
   
@@ -153,18 +169,8 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?
 #### PubMed: http://pubmed.gov  
   
    泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山  
-  ```
-  test
-  ```
-  
+
    E. coli O111のゲノム関連論文を探してみよう  
-  
-    1. 検索窓に E. coli と入れてGoをクリック ⇒ Results: 1 to 20 of “331745” こんなに大腸菌論文がある  
-    2. O111 を追加して「E. coli O111」で絞り込み検索する ⇒ 941 報まで絞り込まれる  
-    3. さらにgenome を追加して「E. coli O111 genome」で検索  ⇒ 109 報まで絞り込まれる  
-    4. 実際にどのようなタームに展開されて検索されているかは右カラムの「Datails」に表示されている (… MeSHってなんだ？＞ただちにぐぐろう）  
-    5. より一層の絞り込みは上部のAdvancedから指定できる。たとえば「Title/Abstract」や「Author」「Publication Date」を指定するなどして絞りこめる  
-    ```
   
     【課題】 猫アレルギーの人が猫を飼うための猫洗いのテクニックを記述した学術論文を検索しなさい。(ヒント: wash allergy)  
     【解答】 cat wash allergy で検索し「Evaluation of different techniques for washing cats: quantitation of allergen removed from the cat and the effect on airborne Fel d 1.」に至る。１週間に１度、３分間お湯につけるのを２回繰り返すとよい  
