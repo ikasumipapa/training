@@ -65,7 +65,7 @@ http://spysee.jp/中村保一/1034648/
    ```
    sll1234
    ```
-  
+  　
   
 - 英文、とくに前置詞の使い方がただしいかどうか、ググる
    検索例:
@@ -74,7 +74,7 @@ http://spysee.jp/中村保一/1034648/
    Study in
    Study of
    ```
-  
+  　
   
 #####一歩すすんだ検索#####
   
@@ -94,7 +94,7 @@ http://spysee.jp/中村保一/1034648/
    "Mus musculus" OR "Mus domesticus"
    ```
    【解答】上：Mus, musculus, domesticus のどれかのキーワードがあれば良い、下：「Mus musculus」もしくは「Mus domesticus」のどちらかがあれば良い
-  
+  　
   
    - ワイルドカードを使う  
    
@@ -104,7 +104,7 @@ http://spysee.jp/中村保一/1034648/
    ```
    vitamin * is good for *
    ```
-  
+  　
   
     - .. 一定の数値範囲を指定
   
@@ -112,7 +112,7 @@ http://spysee.jp/中村保一/1034648/
    ```
    Arabidopsis 2001..2006
    ```
-  
+  　
   
    - − (マイナス) 特定のキーワードを除外  
   
@@ -121,7 +121,7 @@ http://spysee.jp/中村保一/1034648/
    東工大
    東工大 -東京工業大学
    ```
-  
+  　
   
    - ファイルタイプ指定 (PowerPoint, PDF, Word書類, Excel書類, text, html) 【これ有用！】
    ```
@@ -133,7 +133,7 @@ http://spysee.jp/中村保一/1034648/
    blast filetype:ppt
    mouse filetype:xls
    ```
-  
+  　
   
    - site: 特定のサイトで検索
    【課題】それぞれ何を検索しようとしているかを考え、実際に検索してみて、検索数の違いを比較しましょう
@@ -142,18 +142,18 @@ http://spysee.jp/中村保一/1034648/
    東京工業大学 site:titech.ac.jp
    東京工業大学 -site:titech.ac.jp
    ```
-  
+  　
   
    【課題】癌の研究に関係するPDFとパワポファイルを文部科学省のサイトで探しなさい  
    【解答】癌 研究 site:mext.go.jp filetype:pdf OR filetype:ppt
-  
+  　
   
   - link: 特定のサイトへのリンクがあるページ
    【課題】東工大のトップページへのリンクがあるページを検索しよう
    ```
    link:www.titech.ac.jp
    ```
-  
+  　
   
     - 電卓・通貨 http://www.google.com/intl/ja/help/features.html#calculator  
   
@@ -174,10 +174,10 @@ http://spysee.jp/中村保一/1034648/
     
    【参考】1000円を米ドルに  
    【参考】10億リットルを東京ドームで  
-  
+  　
   
    そんなgoogleの便利な利用法についてはこちらを参照 http://support.google.com/websearch/  
-  
+  　
   
 ------------------------------
 
