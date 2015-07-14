@@ -95,7 +95,9 @@ http://spysee.jp/中村保一/1034648/
    "Mus musculus" OR "Mus domesticus"
    ```
    【解答】上：Mus, musculus, domesticus のどれかのキーワードがあれば良い、下：「Mus musculus」もしくは「Mus domesticus」のどちらかがあれば良い
+  　　
   　
+  
   
    - ワイルドカードを使う  
    
@@ -149,6 +151,7 @@ http://spysee.jp/中村保一/1034648/
    【課題】癌の研究に関係するPDFとパワポファイルを文部科学省のサイトで探しなさい  
    【解答】癌 研究 site:mext.go.jp filetype:pdf OR filetype:ppt
   　
+  　
   
    - link: 特定のサイトへのリンクがあるページ  
   
@@ -158,7 +161,7 @@ http://spysee.jp/中村保一/1034648/
    ```
   　
   
-    - 電卓・通貨 http://www.google.com/intl/ja/help/features.html#calculator  
+   - 電卓・通貨 http://www.google.com/intl/ja/help/features.html#calculator  
   
    ちょっと便利だったりする。乗算はアスタリスク、アスタリスクが２つでべき乗  
   
