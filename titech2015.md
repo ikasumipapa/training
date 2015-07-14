@@ -27,14 +27,14 @@ http://spysee.jp/中村保一/1034648/
 **google の原理**  
   
 「ロボット」が収集にやってくる（以下はとあるサーバのアクセスログにあったgooglebotの痕跡）  
-```
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:14:39:41 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=logo_jp.png&refer=LogoMark HTTP/1.1" 200 86078
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:15:21:12 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=LogoAndMark_mono.png&refer=LogoMark HTTP/1.1" 200 73543
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:15:27:35 +0900] "GET /~yn/jp/?cmd=backup&page=seikawakate2005 HTTP/1.1" 200 6828
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:02:38 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=sample_namecard.ppt&refer=LogoMark HTTP/1.1" 200 278528
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:06:19 +0900] "GET /~yn/jp/?Publications HTTP/1.1" 200 53032
-crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=arc.jpg&refer=BusTable HTTP/1.1" 200 70808
-```
+   ```
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:14:39:41 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=logo_jp.png&refer=LogoMark HTTP/1.1" 200 86078
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:15:21:12 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=LogoAndMark_mono.png&refer=LogoMark HTTP/1.1" 200 73543
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:15:27:35 +0900] "GET /~yn/jp/?cmd=backup&page=seikawakate2005 HTTP/1.1" 200 6828
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:02:38 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=sample_namecard.ppt&refer=LogoMark HTTP/1.1" 200 278528
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:06:19 +0900] "GET /~yn/jp/?Publications HTTP/1.1" 200 53032
+   crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=arc.jpg&refer=BusTable HTTP/1.1" 200 70808
+   ```
 　- 「どこからもリンクのないページ」は原理的に探索不可能  
 　- どこかからリンクがあれば、いつかはやってくる  
 　- 更新頻度が高いほど、google で上位にやってくる（blog とかが上位に来がちという問題）  
