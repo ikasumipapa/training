@@ -114,7 +114,7 @@ http://spysee.jp/中村保一/1034648/
    ```
   
   
-   - \− (マイナス) 特定のキーワードを除外  
+   - − (マイナス) 特定のキーワードを除外  
   
    【課題】以下の検索結果数、内容を比較してみる
    ```
@@ -185,7 +185,7 @@ http://spysee.jp/中村保一/1034648/
 
 #### PubMed: http://pubmed.gov  
   
-   泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山  
+   - 泣く子も黙るNational Center for Biotechnology Information (NCBI) 提供の学術論文検索の総本山
 
    - E. coli O111のゲノム関連論文を探してみよう  
 
@@ -208,8 +208,8 @@ http://spysee.jp/中村保一/1034648/
 
 #### Google Scholar http://scholar.google.com ####
   
-**学術系のgoogle検索**
-
+   - 学術系のgoogle検索
+  
    - 学術専門誌、論文、書籍、要約など、さまざまな分野の学術資料を検索。ISIと契約するお金がなくても、論文引用数の概数を知ることは可能。たとえば、NAKAMURA Yasukazu. さんの発表論文や講演要旨をさがしてみよう。  
   
    ```
@@ -240,9 +240,9 @@ http://spysee.jp/中村保一/1034648/
 
 #### Allie: A Search Service for Abbreviation / Long Form http://allie.dbcls.jp/ja ####
   
-   *生命科学分野において利用されている略語とその展開形を検索するサービス*  
+   - 生命科学分野において利用されている略語とその展開形を検索するサービス
   
-   - 文献中に多く出現する略語は多義語であることが多く、特に専門外の読者には理解するのに困難を伴うことがあります。Allieはこの問題に対する一つの解となるよう開発されています  
+   文献中に多く出現する略語は多義語であることが多く、特に専門外の読者には理解するのに困難を伴うことがあります。Allieはこの問題に対する一つの解となるよう開発されています  
   
    【課題】 SPF という略語は生活や生物学研究のさまざまな場面で目にしますが、それらは何の略語で？Allieで調べなさい  
   
