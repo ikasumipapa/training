@@ -3,7 +3,7 @@
 国立遺伝学研究所  
 中村保一 (July 16 / 23, 2014)  
   
-_この資料のURL→ http://bit.ly/yn15titech_  
+*この資料のURL→ http://bit.ly/yn15titech*  
   
 ##イントロダクション
 
@@ -18,15 +18,15 @@ http://spysee.jp/中村保一/1034648/
 
 ------------------------------
 
-###情報リテラシー再入門：検索
+### 情報リテラシー再入門：検索
 
-####google
+#### google
 
-_ま、とにかく、まずは「ググれ」 http://www.google.co.jp_
+*ま、とにかく、まずは「ググれ」 http://www.google.co.jp*  
   
-__google の原理__  
+**google の原理**  
   
-「ロボット」が収集にやってくる（以下はとあるサーバのアクセスログにあったgooglebotの痕跡）
+「ロボット」が収集にやってくる（以下はとあるサーバのアクセスログにあったgooglebotの痕跡）  
 ```
 crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:14:39:41 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=logo_jp.png&refer=LogoMark HTTP/1.1" 200 86078
 crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:15:21:12 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=LogoAndMark_mono.png&refer=LogoMark HTTP/1.1" 200 73543
@@ -35,18 +35,18 @@ crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:02:38 +0900] "GET /~yn/jp/?
 crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:06:19 +0900] "GET /~yn/jp/?Publications HTTP/1.1" 200 53032
 crawl-66-249-65-51.googlebot.com - - [24/Dec/2006:16:44:21 +0900] "GET /~yn/jp/?plugin=attach&pcmd=open&file=arc.jpg&refer=BusTable HTTP/1.1" 200 70808
 ```
-　　* 「どこからもリンクのないページ」は原理的に探索不可能  
-　　* どこかからリンクがあれば、いつかはやってくる  
-　　* 更新頻度が高いほど、google で上位にやってくる（blog とかが上位に来がちという問題）  
+　　- 「どこからもリンクのないページ」は原理的に探索不可能  
+　　- どこかからリンクがあれば、いつかはやってくる  
+　　- 更新頻度が高いほど、google で上位にやってくる（blog とかが上位に来がちという問題）  
   
-* ダブルコーテーションの活用（勝手に解釈させない）  
+- ダブルコーテーションの活用（勝手に解釈させない）  
   課題：ダブルコーテーションありなしに注意しつつ、以下の検索結果の「件数」とその内容を比較しましょう。  
 ```
 すずけか台
 "すずけか台"
 ```
   
-* 論文の題名の一部または全部でググる
+- 論文の題名の一部または全部でググる
   結構pdfがひっかかってきたりする。scholar （後述）へのリンクがトップにでてくる場合がありますね。  
   検索例：
 ```
@@ -60,7 +60,7 @@ Synechocystis sensory
 sll1234
 ```
 
-* 英文、とくに前置詞の使い方がただしいかどうか、ググる
+- 英文、とくに前置詞の使い方がただしいかどうか、ググる
   検索例:
 ```
 Study on
@@ -68,15 +68,15 @@ Study in
 Study of
 ```
 
-* 一歩すすんだ検索
+- 一歩すすんだ検索
 
- * OR検索 googleは「AND検索」つまり、キーワード全てを含む結果を行います。  
-キーワードの一部を含んでいればいい場合=「OR検索」には文字通り「OR」を使います。  
+ - OR検索 googleは「AND検索」つまり、キーワード全てを含む結果を行います。  
+   キーワードの一部を含んでいればいい場合=「OR検索」には文字通り「OR」を使います。  
 
-【課題】以下の検索の意味と、検索結果（特に右上の検索結果数) を比較しましょう。どのように違いますか？  
+   【課題】以下の検索の意味と、検索結果（特に右上の検索結果数) を比較しましょう。どのように違いますか？  
 ```
-Mus musculus domesticus
-Mus musculus OR domesticus
+   Mus musculus domesticus
+   Mus musculus OR domesticus
 ```
 【解答】上：３つのキーワードが全部入っているページを検索、下：Musに加え、musculus か domesticus のどちらかが記載されているページ
 
