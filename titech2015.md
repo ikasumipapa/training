@@ -278,12 +278,13 @@
 
 ##### 蛍光によるdideoxy法（サンガー法） #####
 
-   Polymerase Chain Reaction (PCP)
-   : http://www.youtube.com/watch?v=QaWLJVGEFi8 (youtube)
-   Sanger Sequencing (dideoxy method)
-   : http://www.youtube.com/watch?v=oYpllbI0qF8 (youtube)
-   : http://www.youtube.com/watch?v=6ldtdWjDwes (youtube)
-  　
+   <dl>
+     <dt>Polymerase Chain Reaction (PCP)</dt>
+     <dd>http://www.youtube.com/watch?v=QaWLJVGEFi8 (youtube)</dd>
+     <dt>Sanger Sequencing (dideoxy method)</dt>
+       <dd>http://www.youtube.com/watch?v=oYpllbI0qF8 (youtube)</dd>
+       <dd>http://www.youtube.com/watch?v=6ldtdWjDwes (youtube)</dd>
+   </dl>
   
 ##### New Generation Sequencer (NGS) #####
 
