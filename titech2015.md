@@ -3,6 +3,10 @@
 国立遺伝学研究所  
 中村保一 (July 16 / 23, 2014)  
   
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+
 # この資料のURL→ http://bit.ly/yn15titech #
   
 ## 0. イントロダクション ##
