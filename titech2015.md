@@ -493,16 +493,6 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
 
      1. 配列の比較・検索＝アラインメント
 
-     アラインメントとは？
-
-     図：配列アラインメント（塩基配列）
-     図：配列アラインメント（タンパク質＝アミノ酸の配列）
-     図：配列アラインメントのためのドットプロット
-     図：ドットプロット(1)
-     図：ドットプロット(2)
-     図：ドットプロットの方法(1)
-     図：ドットプロットの方法(2)
-
      2. アミノ酸配列のアラインメント
 
      「マトリクス」＝類似の程度を示す
@@ -534,13 +524,13 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
     | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
     | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
   　
-     【実習】BLASTあれこれ  
+   【実習】BLASTあれこれ  
   
-     NCBI BLASTを体験しよう  
+    NCBI BLASTを体験しよう  
   
-     1. http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
-     2. 「protein BLAST」を選択
-     3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
+   1. http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
+   2. 「protein BLAST」を選択
+   3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
 
      ```
      >opsin Rh2(Drosophila melanogaster)
@@ -553,42 +543,42 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
      EPKPDAPASDTETTSEADSKA
      ```
   
-     4. 「Choose Search Set」＞「Database」の「swissprot」を選択
-     5. 左下の「BLAST」ボタンをクリック→実行
-     6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
-     7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
-     8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
-     9. 下へスクロールして「Descriptions」へ
-     10. 上から順に数本にチェック入れる
+   4. 「Choose Search Set」＞「Database」の「swissprot」を選択
+   5. 左下の「BLAST」ボタンをクリック→実行
+   6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
+   7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
+   8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
+   9. 下へスクロールして「Descriptions」へ
+   10. 上から順に数本にチェック入れる
        1. Download – 手元にダウンロード
        2. GenPept – GenBank からの翻訳DBへ
        3. Graphics – グラフィクスでの配列比較
        4. AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
        5. Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
-     11. 下へスクロールして「Alignments」へ
-     12. アラインメントの右横にある Related Information を活用しよう
-     13. Gene-associated gene details
-     14. Map Viewer-aligned genomic context
-     15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
+   11. 下へスクロールして「Alignments」へ
+   12. アラインメントの右横にある Related Information を活用しよう
+   13. Gene-associated gene details
+   14. Map Viewer-aligned genomic context
+   15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
        （例）「Choose Search Set」の「Organism」に「Homo sapiens (taxid:9606)」を入れて（Homo あたりまで入れれば補完候補が出る筈）ヒトの opsin を再検索してみましょう。  
-     16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
-     17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
+   16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
+   17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
   　
   
-     【参考】: cDNAやESTのゲノムへのマッピング（貼り付け）は、BLATのほうがよい。ただしWWWで検索できる生物種はほとんどが animal。上記リンクで確認しよう。  
-     【応用】: 検索結果で得られた類似な配列をまとめどりしよう統合TV本家: http://togotv.dbcls.jp/20070926.html (YouTube版: http://www.youtube.com/watch?v=RhTmgpOIUIw ) を参照  
-     【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
-     【応用】「マトリクス」をかえて検索してみましょう。  
-     【応用】table format は大量にサーチする際に便利です。結果をダウンロードして、エクセルで開いてみよう  
+   【参考】: cDNAやESTのゲノムへのマッピング（貼り付け）は、BLATのほうがよい。ただしWWWで検索できる生物種はほとんどが animal。上記リンクで確認しよう。  
+   【応用】: 検索結果で得られた類似な配列をまとめどりしよう統合TV本家: http://togotv.dbcls.jp/20070926.html (YouTube版: http://www.youtube.com/watch?v=RhTmgpOIUIw ) を参照  
+   【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
+   【応用】「マトリクス」をかえて検索してみましょう。  
+   【応用】table format は大量にサーチする際に便利です。結果をダウンロードして、エクセルで開いてみよう  
   
-     *e-valueとは？*  
-     E = Kmn^(e-λS)  
-     そのライブラリで偶然に同じスコアでヒットする本数の期待値  
-     ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
+    *e-valueとは？*  
+   E = Kmn^(e-λS)  
+   そのライブラリで偶然に同じスコアでヒットする本数の期待値  
+   ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
   　
 ------------------------------
   
-   3. 遺伝子機能予測
+#### 遺伝子機能予測 ####
 
    遺伝子の機能を知るためには
 
@@ -596,9 +586,9 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
 
    - 実験で知る・推し量る
 
-   酵素活性をはかる  
-   遺伝子(DNA)→転写→RNA→翻訳→タンパク質  
-   タンパク質をとり、どんな酵素活性をもつのか調べる  
+     酵素活性をはかる  
+     遺伝子(DNA)→転写→RNA→翻訳→タンパク質  
+     タンパク質をとり、どんな酵素活性をもつのか調べる  
 
    - 古典的遺伝学　形態や現象から遺伝子へ
    - 逆遺伝学　遺伝子から形態や現象へ＝遺伝子を「潰す」
@@ -614,40 +604,40 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
      - 「相同 (homology) 人の手＝猫の足＝鳥の羽
      - 「相似」(similarity) コウモリと鳥の羽、パンダの親指
 
-     部分一致している部分は機能と関わらないかもしれない  
-     機能とかかわらない領域の部分的な一致が非常に危険  
-     「嘘類似」の問題回避法  
+    部分一致している部分は機能と関わらないかもしれない  
+   機能とかかわらない領域の部分的な一致が非常に危険  
+   「嘘類似」の問題回避法  
 
-     1. 配列類似検索の対象は、信頼できるライブラリから順に使う
+1. 配列類似検索の対象は、信頼できるライブラリから順に使う
   
-      - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
-      - nr: (see. 2. BLAST Database Content)
+   - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
+   - nr: (see. 2. BLAST Database Content)
 
-     2. 配列類似検索以外の機能予測方法を用いる
+2. 配列類似検索以外の機能予測方法を用いる
   
-      機能に関わるタンパク質の部分配列（モチーフやドメイン）  
+   機能に関わるタンパク質の部分配列（モチーフやドメイン）  
 
-      InterPro: さまざまなタンパク質機能探索のための統合データベース  
-      : http://www.ebi.ac.uk/interpro
+   - InterPro: さまざまなタンパク質機能探索のための統合データベース  
+    - http://www.ebi.ac.uk/interpro
   
-      3. 注釈の「根拠 (evidence)」が明示できる方法で注釈する
+3. 注釈の「根拠 (evidence)」が明示できる方法で注釈する
   
-      see: http://www.geneontology.org/ -> Documentation -> Evidence Code Guide  
+   see: http://www.geneontology.org/ -> Documentation -> Evidence Code Guide  
   
-      - IDA (Inferred from Direct Assay)
-      - TAS (traceable author statement)
-      - IEA (Inferred from Electronic Annotation)
-      - ISS (Inferred from Sequence or Structural similarity) etc.
+     - IDA (Inferred from Direct Assay)
+     - TAS (traceable author statement)
+     - IEA (Inferred from Electronic Annotation)
+     - ISS (Inferred from Sequence or Structural similarity) etc.
   　
   
-   【実習】InterPro・GO  
+【実習】InterPro・GO  
   
-   1. InterProScan
+1. InterProScan
   
    - モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト  
   
-      1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
-      2. Enter or paste a PROTEIN sequence in any supported format: の枠に以下の配列をコピペする (ctl-C then ctl-V)
+   1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
+   2. Enter or paste a PROTEIN sequence in any supported format: の枠に以下の配列をコピペする (ctl-C then ctl-V)
 
      ```
      >opsin Rh2(Drosophila melanogaster)
@@ -660,14 +650,14 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
      EPKPDAPASDTETTSEADSKA
      ```
 
-      3. 「Submit」をクリックしてジョブをスタート
-      4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）
+   3. 「Submit」をクリックしてジョブをスタート
+   4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）
   　
   
    【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう  
   　
   
-   2. GO
+2. GO
   
    遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
   
@@ -677,7 +667,7 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
    2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む
    3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
   　
-   3. TogoAnnotation (旧 KazusaAnnotation) の活用
+3. TogoAnnotation (旧 KazusaAnnotation) の活用
   　
    ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
@@ -701,23 +691,23 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
   
    とくにかずさDNA研究所が世界で初めて全ゲノムを決定した独立栄養生物である *Synechocystis* PCC 6803 の論文はほぼ全部、入力されています。これはすごい！  
   　
-   【実習】TogoAnnotationの利用例
+【実習】TogoAnnotationの利用例
   　
-      1. http://togo.annotation.jp/ を開いてみましょう
-      2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します
-      3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867 遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)
-      4. Pubmed ID (例えば 12228353) をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。
-      5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。
+   1. http://togo.annotation.jp/ を開いてみましょう
+   2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します
+   3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867 遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)
+   4. Pubmed ID (例えば 12228353) をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。
+   5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。
   　
   
-   4. ExPASy http://www.expasy.org/
+4. ExPASy http://www.expasy.org/
   
    - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富
   　
    The ExPASy (Expert Protein Analysis System) proteomics server of the Swiss Institute of Bioinformatics (SIB) is dedicated to the analysis of protein sequences and structures as well as 2-D PAGE  
 
-      - タンパク質の同定 (peptide mass fingerprint, pI, MW etc.): Aldente, TagIdent, MultiIdent, AACompIdent  
-      - 翻訳後修飾や切断部位の推定: Findmod, FindPept, GlycoMod などなど、多数のツールを提供。
+   - タンパク質の同定 (peptide mass fingerprint, pI, MW etc.): Aldente, TagIdent, MultiIdent, AACompIdent  
+   - 翻訳後修飾や切断部位の推定: Findmod, FindPept, GlycoMod などなど、多数のツールを提供。
 
 [end]
 
