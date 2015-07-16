@@ -266,3 +266,369 @@ http://spysee.jp/中村保一/1034648/
   
    See also: 統合TV「difff《ﾃﾞｭﾌﾌ》を使って文章の変更箇所を調べる」 http://togotv.dbcls.jp/20130828.html  
 
+------------------------------
+------------------------------
+
+1. 配列決定法とゲノムプロジェクト
+Jul2014東京工業大学「バイオインフォマティクス」演習 topへ戻る
+
+ゲノムプロジェクト
+
+シークエンシングテクノロジの進歩
+
+蛍光によるdideoxy法（サンガー法）
+
+Polymerase Chain Reaction
+http://www.youtube.com/watch?v=QaWLJVGEFi8 (youtube)
+Sanger Sequencing (dideoxy method)
+http://www.youtube.com/watch?v=oYpllbI0qF8 (youtube)
+http://www.youtube.com/watch?v=6ldtdWjDwes (youtube)
+New Generation Sequencer (NGS)
+
+illumina Genome Analyser – http://www.youtube.com/watch?v=77r5p8IBwJk (youtube)
+フラットな固層上に適当な間隔でDNAを1分子ずつ固定、基盤上で「ブリッジPCR」を行い、スポットとしてDNAを増幅
+相補鎖合成を行いながら、4つの塩基に別々の蛍光標識をつけておいて、結合した塩基の場所をスポットの光として特定し、塩基配列を解読していく
+どのような目的でシーケンスを行うのか
+
+NGSの出現によって可能になった塩基配列決定プロジェクト
+
+1000ゲノムプロジェクト
+環境ゲノミクス
+DDBJ @ 国立遺伝学研究所 http://www.ddbj.nig.ac.jp/
+
+GenBank, ENA と国際協力関係にある、塩基配列のアーカイブです
+
+【実習】配列情報へのアクセス
+
+1. Entrez 改め GQuery
+
+National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
+
+http://www.ncbi.nlm.nih.gov/gquery
+
+GQuery をひらき、眺める（大量のデータベースの複合体）
+interleukin-2 から検索スタート
+AND human を追加して絞ってみる (interleukin-2 AND human で検索)
+AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
+左下あたりの「Nucleotide 43 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens (11) を選択
+検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。
+【応用】: Pubmed で同様に論文を検索しなさい。
+【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。
+2. GOLD
+
+世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいテーブル http://www.genomesonline.org
+
+メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
+終了したプロジェクト: Complete Projects
+進行中のプロジェクト: Incomplete Projects
+アナウンスされているプロジェクト: Targeted Projects
+生物の種名の調べ方
+いきなりgoogleとかでもいいんですよ http://www.google.co.jp/
+【実習】大腸菌O111ゲノムは決められている？
+【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？
+【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？
+See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
+
+3. NCBI Taxonomy
+
+生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   http://www.ncbi.nlm.nih.gov/Taxonomy
+
+【実習】あなたが興味のある生物種のプロジェクトはないかNCBI Taxonomy で調べてみよう （例：Arabidopsis, cat, mouse, … あなたの研究対象／興味のある生物でどうぞ）
+生物名（common name ＝一般名 も可）で検索できます。
+右ペインの  Entrez records から、その生物種の NCBI のリソースにおさめられている DB を展開してみましょう（Nucleotide〜Genome, PopSet, GEO, SRA, BioProject, BioSample, BioSystems, …）
+下部の Lineage から類縁の生物種を展開してみましょう
+下スクロールして Genome Information, External Information Resources を確認しましょう。GOLD へはここからも行けますね。学名で引かなくて良いのでここから行く方が早そう
+See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
+
+4. DDBJ の NGS アーカイブと、解析パイプライン、BioProject
+
+NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
+SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります
+【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
+NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+【デモ】右上の Login as “guest” から利用イメージをみてみましょう
+See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html
+
+スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
+今後重要になってくる Bundle 型 DB
+DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/
+DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/
+
+2. 配列類似検索
+Jul2014東京工業大学「バイオインフォマティクス」演習 topへ戻る
+
+塩基配列の注釈の基礎 (annotation)
+
+DNA→RNA→タンパク質の情報の流れ（一応おさらい）
+
+DNA→(転写:transcription)→RNA→(翻訳:translation)
+DNA: ATGGGAGTTCTG...
+RNA: AUGGGAGUUCUG...
+DNAのT(チミン)＝RNAのU(ウリジン)　他の塩基は同じ
+RNA→(翻訳:translation)→タンパク質 protein
+RNA: AUGGGAGUUCUG...
+PRO:  M  G  V  L  ...
+塩基３文字（＝コドン）がアミノ酸１文字に対応
+アミノ酸配列＝タンパク質
+タンパク質は生体を構成する主要な物質。
+タンパク質の多くは「酵素」であり、細胞内で物質を変換する触媒となる
+「代謝」をつかさどっているのがタンパク質でできた酵素。その設計図がDNA上の「遺伝子」
+タンパク質の配列は、アミノ酸の性質によって、一定の形に折り畳まれる
+生体内で用いられるアミノ酸は20種類ある。
+A	Ala	Alanine		アラニン
+C	Cys	Cystein		システイン
+D	Asp	Aspartate	アスパラギン酸
+E	Glu	Glutamate	グルタミン酸
+F	Phe	Phenylalanine	フェニルアラニン
+G	Gly	Glycine		グリシン
+H	His	Histidine	ヒスチジン
+I	Ile	Isoleucine	イソロイシン
+K	Lys	Lysine		リジン
+L	Leu	Leucine		ロイシン
+M	Met	Methyonine	メチオニン
+N	Asn	Asparagine	アスパラギン
+P	Pro	Proline		プロリン
+Q	Gln	Glutamine	グルタミン
+R	Arg	Arginine	アルギニン
+S	Ser	Serine		セリン
+T	Thr	Threonine	スレオニン
+V	Val	Valine		バリン
+W	Typ	Tryptophan	トリプトファン
+Y	Tyr	Tyrosine	チロシン
+アミノ酸は20種類しかないのに、コドンは３文字だから、4x4x4=64種類ある
+一つのアミノ酸を指定するコドンが複数存在する場合がおおい
+例: F (Phe) フェニルアラニン UUU, UUC
+例: L (Leu) ロイシン UUA, UUG, CUU, CUC, CUA, CUG (後ろの４つは実質 CU の二文字で判別可)
+ゲノムの注釈 genome annotation
+
+注釈には二種類ある
+
+構造注釈 structural annotation
+遺伝子の構造を記載したアノテーション
+機能注釈 functional annotation
+遺伝子の機能を記載したアノテーション
+http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)
+featuresなどの注釈がどのようについているのか、眺めてみましょう。
+Three major DNA databanks
+
+JP: http://www.ddbj.nig.ac.jp/
+EU: http://www.ebi.ac.uk/ena/
+USA: http://www.ncbi.nlm.nih.gov/Genbank/
+遺伝子の「構造 structure」を予測すること
+
+DNAは読めるが、それだけでは遺伝子はわからない
+ゲノムを読んだら遺伝子の構造を把握することがまず第一
+遺伝子構造アノテーションの基礎
+
+類似配列検索
+
+既知の遺伝子に類似な配列は遺伝子（たぶん）
+オーソログ ortholog （種分化と同時に遺伝子が分離）
+パラログ paralog （種のなかで遺伝子が重複）
+NCBI BLAST
+http://www.ncbi.nlm.nih.gov/BLAST/
+DDBJ BLAST
+http://blast.ddbj.nig.ac.jp/top-j.html
+日本語・clustalwへの連続技が可能
+BLAT
+http://genome.ucsc.edu/cgi-bin/hgBlat
+高度な一致を検索する。やたらと高速
+遺伝子のレパートリーは数え尽くされたか？→No。誰とも似ていない遺伝子がたくさんある→配列パターンによる遺伝子発見
+配列の比較・検索＝アラインメント
+
+アラインメントとは？
+
+図：配列アラインメント（塩基配列）
+図：配列アラインメント（タンパク質＝アミノ酸の配列）
+図：配列アラインメントのためのドットプロット
+図：ドットプロット(1)
+図：ドットプロット(2)
+図：ドットプロットの方法(1)
+図：ドットプロットの方法(2)
+
+アミノ酸配列のアラインメント
+
+「マトリクス」＝類似の程度を示す
+
+PAM250
+BLOSUM62
+ダイナミックプログラミング = DP
+
+「最適経路中の部分経路もまた最適経路になっている」
+動的計画法は、この原理を利用して最適化問題を解く。
+ある問題を、多段階に「バラす」ことができる場合、動的計画法によって各段階の最適解(経路)を求め、それをたどることで、全体の問題を解くことが可能になる。
+まじめにDPやるとタイヘンなんで、はしょる
+
+FASTA
+よく似た領域の周囲だけをDPで探索
+BLAST
+「ワード」の一致を発見
+そこからアラインメントを横へ延ばす
+きわめて高速
+巨大配列も探索可能
+BLAST検索のprogram option
+program	Query	DB	概要
+BLASTN	核 酸 配 列	核 酸 配 列	問い合わせ配列と類似の核酸配列を検索
+BLASTP	アミノ酸配列	アミノ酸配列	問い合わせ配列と類似のアミノ酸配列を検索
+BLASTX	核 酸 配 列	アミノ酸配列	問い合わせ核酸配列をアミノ酸に翻訳した配列で、類似のアミノ酸配列を検索
+TBLASTN	アミノ酸配列	核 酸 配 列	アミノ酸配列を核酸配列のデータベースを翻訳したものと類似の配列を検索
+TBLASTX	核 酸 配 列	核 酸 配 列	問い合わせ核酸配列を全フレーム翻訳したものを、核酸配列データベースを全フレーム翻訳したものとの類似を検索
+PSI-BLAST	アミノ酸配列	アミノ酸配列	問い合わせ配列とアミノ酸データベースとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法
+PHI-BLAST	アミノ酸配列	アミノ酸配列	配列の「パターン」で類似の配列を検索する
+ 
+
+【実習】BLASTあれこれ
+
+NCBI BLASTを体験しよう
+
+http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
+「protein BLAST」を選択
+「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
+>opsin Rh2(Drosophila melanogaster)
+MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
+GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY
+ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI
+WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS
+YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
+VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
+EPKPDAPASDTETTSEADSKA
+「Choose Search Set」＞「Database」の「swissprot」を選択
+左下の「BLAST」ボタンをクリック→実行
+まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
+「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
+そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
+（問題が生じたとき使う：検索結果へのリンク１）
+
+下へスクロールして「Descriptions」へ
+上から順に数本にチェック入れる
+Download – 手元にダウンロード
+GenPept – GenBank からの翻訳DBへ
+Graphics – グラフィクスでの配列比較
+AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
+Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
+下へスクロールして「Alignments」へ
+アラインメントの右横にある Related Information を活用しよう
+Gene-associated gene details
+Map Viewer-aligned genomic context
+結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
+（例）「Choose Search Set」の「Organism」に「Homo sapiens (taxid:9606)」を入れて（Homo あたりまで入れれば補完候補が出る筈）ヒトの opsin を再検索してみましょう。
+右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
+（問題が生じたとき使う：検索結果へのリンク２）
+
+結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
+【参考】: cDNAやESTのゲノムへのマッピング（貼り付け）は、BLATのほうがよい。ただしWWWで検索できる生物種はほとんどが animal。上記リンクで確認しよう。
+【応用】: 検索結果で得られた類似な配列をまとめどりしよう統合TV本家: http://togotv.dbcls.jp/20070926.html (YouTube版: http://www.youtube.com/watch?v=RhTmgpOIUIw ) を参照
+【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照
+【応用】「マトリクス」をかえて検索してみましょう。
+【応用】table format は大量にサーチする際に便利です。結果をダウンロードして、エクセルで開いてみよう
+e-valueとは？
+E = Kmn^(e-λS)
+そのライブラリで偶然に同じスコアでヒットする本数の期待値
+ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意
+
+3. 遺伝子機能予測
+Jul2014東京工業大学「バイオインフォマティクス」演習 topへ戻る
+
+遺伝子の機能を知るためには
+
+まず、機能が「本当の意味で」判明している遺伝子は驚くほど少ないことを認識しましょう。
+
+実験で知る・推し量る
+
+酵素活性をはかる
+遺伝子(DNA)→転写→RNA→翻訳→タンパク質
+タンパク質をとり、どんな酵素活性をもつのか調べる
+逆遺伝学
+古典的遺伝学　形態や現象から遺伝子へ
+逆遺伝学　遺伝子から形態や現象へ＝遺伝子を「潰す」
+転写産物の動態を観察する
+類推する方法は？
+
+配列の類似
+配列が似ていれば機能も似ている（多分）
+類似の類似の類似の類似は類似ではないかもしれない
+「相同 (homology) 人の手＝猫の足＝鳥の羽
+「相似」(similarity) コウモリと鳥の羽、パンダの親指
+部分一致している部分は機能と関わらないかもしれない
+機能とかかわらない領域の部分的な一致が非常に危険
+「嘘類似」の問題回避法
+
+配列類似検索の対象は、信頼できるライブラリから順に使う
+UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
+nr: (see. 2. BLAST Database Content)
+配列類似検索以外の機能予測方法を用いる
+機能に関わるタンパク質の部分配列（モチーフやドメイン）
+InterPro: さまざまなタンパク質機能探索のための統合データベース
+http://www.ebi.ac.uk/interpro
+注釈の「根拠 (evidence)」が明示できる方法で注釈する
+see: http://www.geneontology.org/ -> Documentation -> Evidence Code Guide
+IDA (Inferred from Direct Assay)
+TAS (traceable author statement)
+IEA (Inferred from Electronic Annotation)
+ISS (Inferred from Sequence or Structural similarity) etc.
+【実習】InterPro・GO
+
+1. InterProScan
+
+モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト
+
+googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )
+Enter or paste a PROTEIN sequence in any supported format: の枠に以下の配列をコピペする (ctl-C then ctl-V)
+>opsin Rh2(Drosophila melanogaster)
+MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
+GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY
+ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI
+WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS
+YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
+VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
+EPKPDAPASDTETTSEADSKA
+「Submit」をクリックしてジョブをスタート
+（問題が生じたとき使う：検索結果へのリンク１）
+
+この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）
+【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう
+2. GO
+
+遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい
+
+http://www.geneontology.org生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう
+
+circadian rhythm (GO:0007623) で検索
+Total: 2278 遺伝子が見つかる
+左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む
+左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
+3. TogoAnnotation (旧 KazusaAnnotation) の活用
+
+ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。
+5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2014年7月24日現在) を収集
+なぜこんなものをつくったのか
+ゲノムの「アノテーション」が怪しい
+アノテーションとは、遺伝子の場所や機能を推測した情報
+アノテーションの改善が必要。しかしあまりに膨大
+大勢の力を結集することが必要
+そのための仕組みとして、ソーシャルブックマークを利用する
+普通のブックマークはあなたのパソコンのなか、ソーシャルブックマークはネット上で共有するブックマーク
+詳細は、googleで検索してみてください
+どんな情報が入っているのか
+シアノバクテリア（酸素発生型光合成細菌）
+根粒菌（細胞内共生型窒素固定最近）
+高等植物（マメ科植物のミヤコグサ）
+とくにかずさDNA研究所が世界で初めて全ゲノムを決定した独立栄養生物であるSynechocystis PCC6803の論文はほぼ全部、入力されています。これはすごい！
+
+TogoAnnotationの利用例
+
+http://togo.annotation.jp/ を開いてみましょう
+酸素発生型光合成細菌のSynechocystisの光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します
+sll1867 の赤い字でしめされた「1802 annotations」（数字は増えているかもしれません）をクリックすると sll1867 遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)
+Pubmed ID (例えば 12228353) をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。
+Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。
+4. ExPASy
+
+proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富
+
+http://www.expasy.org/
+
+The ExPASy (Expert Protein Analysis System) proteomics server of the Swiss Institute of Bioinformatics (SIB) is dedicated to the analysis of protein sequences and structures as well as 2-D PAGE
+タンパク質の同定 (peptide mass fingerprint, pI, MW etc.): Aldente, TagIdent, MultiIdent, AACompIdent
+翻訳後修飾や切断部位の推定: Findmod, FindPept, GlycoMod などなど、多数のツールを提供。
+
