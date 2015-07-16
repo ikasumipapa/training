@@ -281,18 +281,16 @@
 
 ##### 蛍光によるdideoxy法（サンガー法） #####
 
-   <dl>
-     <dt>Polymerase Chain Reaction (PCP)</dt>
-     <dd>http://www.youtube.com/watch?v=QaWLJVGEFi8 (youtube)</dd>
-     <dt>Sanger Sequencing (dideoxy method)</dt>
-       <dd>http://www.youtube.com/watch?v=oYpllbI0qF8 (youtube)</dd>
-       <dd>http://www.youtube.com/watch?v=6ldtdWjDwes (youtube)</dd>
-   </dl>
+   - Polymerase Chain Reaction (PCP)
+     - http://www.youtube.com/watch?v=QaWLJVGEFi8 (youtube)
+   - Sanger Sequencing (dideoxy method)
+     - http://www.youtube.com/watch?v=oYpllbI0qF8 (youtube)
+     - http://www.youtube.com/watch?v=6ldtdWjDwes (youtube)
   
 ##### New Generation Sequencer (NGS) #####
 
-   illumina Genome Analyser
-   : http://www.youtube.com/watch?v=77r5p8IBwJk (youtube)
+   -illumina Genome Analyser
+     - http://www.youtube.com/watch?v=77r5p8IBwJk (youtube)
   
    フラットな固層上に適当な間隔でDNAを1分子ずつ固定、基盤上で「ブリッジPCR」を行い、スポットとしてDNAを増幅  
    相補鎖合成を行いながら、4つの塩基に別々の蛍光標識をつけておいて、結合した塩基の場所をスポットの光として特定し、塩基配列を解読していく。  
@@ -304,7 +302,6 @@
 
    - 1000ゲノムプロジェクト
    - 環境ゲノミクス
-  　
   
 ### DDBJ @ 国立遺伝学研究所 http://www.ddbj.nig.ac.jp ###
 
