@@ -387,8 +387,7 @@
 
      - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/
      - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/
-
-------------------------------
+  
 
 ## 3. 配列類似検索 ##
 
