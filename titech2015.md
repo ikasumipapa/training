@@ -452,10 +452,10 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
 
    注釈には二種類ある
 
-   構造注釈 structural annotation
-   : 遺伝子の構造を記載したアノテーション
-   機能注釈 functional annotation
-   : 遺伝子の機能を記載したアノテーション
+   - 構造注釈 structural annotation
+     - 遺伝子の構造を記載したアノテーション
+   -機能注釈 functional annotation
+     - 遺伝子の機能を記載したアノテーション
   
    (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
@@ -473,21 +473,21 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
   
 #### 遺伝子構造アノテーションの基礎 ####
 
-   1. 類似配列検索
+1. 類似配列検索
 
    既知の遺伝子に類似な配列は遺伝子（たぶん）  
      - オーソログ ortholog （種分化と同時に遺伝子が分離）
      - パラログ paralog （種のなかで遺伝子が重複）
   
-   NCBI BLAST
-   : http://www.ncbi.nlm.nih.gov/BLAST/
-   DDBJ BLAST
-   : http://blast.ddbj.nig.ac.jp/top-j.html
-   日本語・clustalwへの連続技が可能
+   -NCBI BLAST
+     - http://www.ncbi.nlm.nih.gov/BLAST/
+   - DDBJ BLAST
+     - http://blast.ddbj.nig.ac.jp/top-j.html
+     - 日本語・clustalwへの連続技が可能
 
-   BLAT
-   : http://genome.ucsc.edu/cgi-bin/hgBlat
-   高度な一致を検索する。やたらと高速
+   - BLAT
+     - http://genome.ucsc.edu/cgi-bin/hgBlat
+     - 高度な一致を検索する。やたらと高速
   
    遺伝子のレパートリーは数え尽くされたか？→No。誰とも似ていない遺伝子がたくさんある→配列パターンによる遺伝子発見
 
@@ -503,38 +503,37 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
      図：ドットプロットの方法(1)
      図：ドットプロットの方法(2)
 
-     3. アミノ酸配列のアラインメント
+     2. アミノ酸配列のアラインメント
 
      「マトリクス」＝類似の程度を示す
   
      - PAM250
      - BLOSUM62
 
-     4. ダイナミックプログラミング = DP
+     3. ダイナミックプログラミング = DP
   
      「最適経路中の部分経路もまた最適経路になっている」  
      動的計画法は、この原理を利用して最適化問題を解く。  
      ある問題を、多段階に「バラす」ことができる場合、動的計画法によって各段階の最適解(経路)を求め、それをたどることで、全体の問題を解くことが可能になる。  
      まじめにDPやるとタイヘンなんで、はしょる  
   
-     FASTA
-     : よく似た領域の周囲だけをDPで探索
-     BLAST
-     : 「ワード」の一致を発見・そこからアラインメントを横へ延ばす・きわめて高速・巨大配列も探索可能
+     - FASTA
+       - よく似た領域の周囲だけをDPで探索
+     - BLAST
+       - 「ワード」の一致を発見・そこからアラインメントを横へ延ばす・きわめて高速・巨大配列も探索可能
   
      BLAST検索のprogram option  
 
-    | program | Query | DB | 概要 |
-    | :—-:|:-—:|:—–|:—– |
-    | BLASTN | 核酸配列 | 核 酸 配 列 | 問い合わせ配列と類似の核酸配列を検索|
-    | BLASTP | アミノ酸配列 | アミノ酸配列 | 問い合わせ配列と類似のアミノ酸配列を検索|
-    | BLASTX | 核酸配列 | アミノ酸配列 | 問い合わせ核酸配列をアミノ酸に翻訳した配列で、類似のアミノ酸配列を検索|
-    | TBLASTN | アミノ酸配列 | 核 酸 配 列 | アミノ酸配列を核酸配列のデータベースを翻訳したものと類似の配列を検索|
-    | TBLASTX | 核酸配列 | 核 酸 配 列 | 問い合わせ核酸配列を全フレーム翻訳したものを、核酸配列データベースを全フレーム翻訳したものとの類似を検索|
-    | PSI-BLAST | アミノ酸配列 | アミノ酸配列 | 問い合わせ配列とアミノ酸データベースとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法 |
-    | PHI-BLAST | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する |
+    | program     | Query        | DB           | 概要                                                                        |
+    |:-----------:|:------------:|:-------------|:----------------------------------------------------------------------------|
+    | BLASTN      | 核酸配列     | 核酸配列     | 問い合わせ配列と類似の核酸配列を検索                                        |
+    | BLASTP      | アミノ酸配列 | アミノ酸配列 | 問い合わせ配列と類似のアミノ酸配列を検索                                    |
+    | BLASTX      | 核酸配列     | アミノ酸配列 | 問い合わせ核酸配列をアミノ酸に翻訳した配列で、類似のアミノ酸配列を検索      |
+    | TBLASTN     | アミノ酸配列 | 核酸配列     | アミノ酸配列を核酸配列のデータベースを翻訳したものと類似の配列を検索        |
+    | TBLASTX     | 核酸配列     | 核酸配列     | 問い合わせ核酸配列を翻訳したものを、核酸配列DBを翻訳したものとの類似を検索  |
+    | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
+    | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
   　
-  
      【実習】BLASTあれこれ  
   
      NCBI BLASTを体験しよう  
@@ -650,14 +649,16 @@ GenBank, ENA と国際協力関係にある、塩基配列のアーカイブで�
       1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
       2. Enter or paste a PROTEIN sequence in any supported format: の枠に以下の配列をコピペする (ctl-C then ctl-V)
 
-      > >opsin Rh2(Drosophila melanogaster)
-      > MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
-      > GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY
-      > ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI
-      > WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS
-      > YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
-      > VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
-      > EPKPDAPASDTETTSEADSKA
+     ```
+     >opsin Rh2(Drosophila melanogaster)
+     MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
+     GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY
+     ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI
+     WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS
+     YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
+     VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
+     EPKPDAPASDTETTSEADSKA
+     ```
 
       3. 「Submit」をクリックしてジョブをスタート
       4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）
