@@ -199,14 +199,17 @@
 
    *E. coli*（大腸菌）O111のゲノム関連論文を探してみよう  
 
-   1. 検索窓に E. coli と入れてGoをクリック ⇒ Results: をェック＝こんなに大腸菌に関する論文がある  
+   1. 検索窓に E. coli と入れてGoをクリック ⇒ Results: の論文数をチェック＝こんなに大腸菌に関する論文がある  
    2. O111 を追加して「E. coli O111」で絞り込み検索する  
    3. さらにgenome を追加して「E. coli O111 genome」で絞り込み
    4. 実際にどのようなタームに展開されて検索されているかは右カラムの「Datails」に表示されている (… MeSHってなんだ？＞ただちにぐぐろう）  
    5. より一層の絞り込みは上部のAdvancedから指定できる。たとえば「Title/Abstract」や「Author」「Publication Date」を指定するなどして絞りこめる  
+
+   ※complete genome sequence などの語句を指定しても一発でゲノム論文を出すのは結構難しいことがわかります
   
     【課題】 猫アレルギーの人が猫を飼うための猫洗いのテクニックを記述した学術論文を検索しなさい。(ヒント: wash allergy)  
-    【解答】 cat wash allergy で検索し「Evaluation of different techniques for washing cats: quantitation of allergen removed from the cat and the effect on airborne Fel d 1.」に至る。１週間に１度、３分間お湯につけるのを２回繰り返すとよい  
+    【解答】 cat wash allergy で検索し「Evaluation of different techniques for washing cats: quantitation of allergen removed from the cat and the effect on airborne Fel d 1.」に至る。１週間に１度、３分間お湯につけるのを２回
+繰り返すとよい  
   
     【応用】: RSS feedを使って、定点観測するには  
     本家統合TV: http://togotv.dbcls.jp/20070920.html (YouTube版: http://www.youtube.com/watch?v=5K8-xnkcClo ) を参照  
@@ -231,9 +234,9 @@
    【課題】 BLAST ( basic local alignment search tool )   の初出論文を引用している論文数は膨大なモノだと考えられるが、その数を調べ、また、引用している論文を列挙しなさい  
    【解答】basic local alignment search tool で検索し、引用元を確認  
   
-   【応用】文献管理ソフトであるBibTeXやEndNoteに簡単に検索結果を取り込むためのリンクの設置が可能「Scholar設定」からどうぞ
+   【応用】文献管理ソフトであるBibTeXやEndNoteに簡単に検索結果を取り込むためのリンクの設置が可能右上のメニューの「設定」からどうぞ。＞修論書く際に、引用文献一覧つくるのが楽になるぞ
     
-   【応用】h-index (http://ja.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0) は学者の論文数と被引用数とに基づいて、科学者の科学的貢献度を示す指標です。google scholar を利用すると比較的簡単に h-index を出すことができます。引用の多い順に文献の検索結果がならんでいますので、被引用数が、リストの上からのカウントを上回ったらそのひとつ手前のカウントが h-index です。あなたのまわりのセンセイ方の戦闘能力を数値で定量比較してみよう。いっひっひ。  
+   【応用】h-index ( http://ja.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0 ) は学者の論文数と被引用数とに基づいて、科学者の科学的貢献度を示す指標です。google scholar を利用すると比較的簡単に h-index を出すことができます。引用の多い順に文献の検索結果がならんでいますので、被引用数が、リストの上からのカウントを上回ったらそのひとつ手前のカウントが h-index です。あなたのまわりのセンセイ方の戦闘能力を数値で定量比較してみよう。いっひっひ。  
 
 ------------------------------
 
