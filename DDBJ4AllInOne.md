@@ -24,7 +24,8 @@
 ## 2. DDBJ のデータベース ##
 
    1. Trad  
-     - Release: http://www.ddbj.nig.ac.jp/breakdown_stats/dbgrowth-e.html#graph
+     - DDBJ の紹介: http://www.ddbj.nig.ac.jp/intro-j.html  
+     - Release: http://www.ddbj.nig.ac.jp/breakdown_stats/dbgrowth-e.html#graph  
    1. DDBJ SRA (DRA)  
      - http://trace.ddbj.nig.ac.jp/dra/  
    1. DDBJ Trace Archive  
@@ -90,11 +91,17 @@
        ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
    
    1. DRAsearch
-     - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
-     
+   - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+   
      SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
      
-     【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
+     1. DRAsearch を開く  
+     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
+     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
+     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
+     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
+     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
+     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
 
 ## 4. DDBJ で解析 ##
 
@@ -136,11 +143,19 @@ BLAST検索のprogram option
      BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
    
    2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+    【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
      
-     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
+     1. 左のカラムから **blastp** を選択  
+     1. **Query** 窓に上記配列をコピペする (cmd-C then cmd-V)  
+     1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
+     1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
+     1. チェックを入れた配列で ClustalW によるマルチプルアラインメントを作成することができます  
+     >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
+     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html 
      
      See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
      
-     - 自分でコマンド入れてガシガシつかえるよってひと＞小笠原さんの講習をどうぞ。  
+     - 自分でコマンド入れてガシガシつかえるよってひと＞小笠原さんの講習をどうぞ！  
 
 [end]
