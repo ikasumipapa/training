@@ -176,9 +176,9 @@ DDBJ BLAST と DDBJ pipeline の紹介
     | TBLASTX     | 核酸配列     | 核酸配列     | 問い合わせ核酸配列を翻訳したものを、核酸配列DBを翻訳したものとの類似を検索  |
     | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
     | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
-  　
-  
-  1. DDBJ BLASTを体験しよう  
+
+
+   1. DDBJ BLASTを体験しよう  
 
      1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）
      1. 左のカラムから「BLASTP」を選択
