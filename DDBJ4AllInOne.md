@@ -65,6 +65,7 @@ http://www.insdc.org/
      - きわめて高速。キーワードによる配列検索・取得
      
      【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
+   
      1. DDBJ ARSA で検索、ARSA を開く  
      1. Quick Search 窓に **Homo sapiens interleukin 2** と入力する  
        ⇒大量のヒットが得られる。どうもヒト以外もたくさんはいっているようだ  
