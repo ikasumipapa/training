@@ -114,9 +114,9 @@ BLAST検索のprogram option
 
    1. DDBJ BLASTを体験しよう  
 
-     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）
-     1. 左のカラムから「BLASTP」を選択
-     1. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
+     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
+     1. 左のカラムから「BLASTP」を選択  
+     1. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)  
      ```
      >opsin Rh2(Drosophila melanogaster)
      MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
@@ -127,10 +127,10 @@ BLAST検索のprogram option
      VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
      EPKPDAPASDTETTSEADSKA
      ```
-     1. 「Choose Search Set」＞「Database」の「swissprot」を選択
-     1. 左下の「BLAST」ボタンをクリック→実行
-     1. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
-     1. 下へスクロールして「Alignments」へ
+     1. 「Choose Search Set」＞「Database」の「swissprot」を選択  
+     1. 左下の「BLAST」ボタンをクリック→実行  
+     1. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。  
+     1. 下へスクロールして「Alignments」へ  
   　
    【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
   
