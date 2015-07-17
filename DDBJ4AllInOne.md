@@ -80,9 +80,9 @@ http://www.insdc.org/
 
    1. ARSA  
    1. getentry  
-
+  
    【実習】塩基配列情報へのアクセス  
-   
+
    1. ARSA  
    
      - きわめて高速。キーワードによる配列検索
