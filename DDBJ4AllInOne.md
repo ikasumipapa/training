@@ -69,8 +69,7 @@ http://www.insdc.org/
      2. interleukin-2 から検索スタート
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
      4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-     
-     検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
+       検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
 
    1. getentry
    
@@ -160,13 +159,12 @@ DDBJ BLAST と DDBJ pipeline の紹介
      ある問題を、多段階に「バラす」ことができる場合、動的計画法によって各段階の最適解(経路)を求め、それをたどることで、全体の問題を解くことが可能になる。  
      まじめにDPやるとタイヘンなんで、はしょる  
   
-  - FASTA
+   - FASTA
      - よく似た領域の周囲だけをDPで探索
    - BLAST
      - 「ワード」の一致を発見・そこからアラインメントを横へ延ばす・きわめて高速・巨大配列も探索可能
   
-     BLAST検索のprogram option  
-
+     BLAST検索のprogram options  
     | program     | Query        | DB           | 概要                                                                        |
     |:-----------:|:------------:|:-------------|:----------------------------------------------------------------------------|
     | BLASTN      | 核酸配列     | 核酸配列     | 問い合わせ配列と類似の核酸配列を検索                                        |
@@ -176,6 +174,7 @@ DDBJ BLAST と DDBJ pipeline の紹介
     | TBLASTX     | 核酸配列     | 核酸配列     | 問い合わせ核酸配列を翻訳したものを、核酸配列DBを翻訳したものとの類似を検索  |
     | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
     | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
+   　
 
 
    1. DDBJ BLASTを体験しよう  
