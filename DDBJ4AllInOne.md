@@ -152,10 +152,9 @@ BLAST検索のprogram option
      1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
      1. チェックを入れた配列で ClustalW によるマルチプルアラインメントを作成することができます  
      >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
-     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html 
-
+     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
      See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
      
-     - 自分でコマンド入れてガシガシつかえるよってひと＞小笠原さんの講習をどうぞ！  
+     自分でコマンド入力してガシガシつかいたいよって方＞小笠原さんの講習をどうぞ！  
 
 [end]
