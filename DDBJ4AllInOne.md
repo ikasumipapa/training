@@ -62,7 +62,6 @@ http://www.insdc.org/
    【実習】塩基配列情報へのアクセス  
 
    1. ARSA  
-   
      - きわめて高速。キーワードによる配列検索
      
      1. DDBJ ARSA で検索、ARSA を開く
@@ -72,16 +71,14 @@ http://www.insdc.org/
        検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
    
    1. getentry
-   
    - きわめて高速な配列取得
      
      1. DDBJ ARSA で検索、ARSA を開く
      2. interleukin-2 から検索スタート
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
-     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
+     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)  
    
    1. DRAsearch
-   
      - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
      
      SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
