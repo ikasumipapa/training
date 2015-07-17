@@ -77,7 +77,6 @@
      1. Search Condition をひらいて、**Homo sapiens "interleukin 2" complete** として検索  
        ⇒検索結果を開き、Features（特徴）を確認しよう。  
        ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます  
-     
      【応用】Advanced Search もお試しください。日付や論文等で絞り込みできます  
    
    1. getentry
