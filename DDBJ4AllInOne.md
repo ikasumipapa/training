@@ -108,7 +108,7 @@ BLAST検索のprogram option
 | BLASTX      | 核酸配列     | アミノ酸配列 | 問い合わせ核酸配列をアミノ酸に翻訳した配列で、類似のアミノ酸配列を検索      |
 | TBLASTN     | アミノ酸配列 | 核酸配列     | アミノ酸配列を核酸配列のデータベースを翻訳したものと類似の配列を検索        |
 | TBLASTX     | 核酸配列     | 核酸配列     | 問い合わせ核酸配列を翻訳したものを、核酸配列DBを翻訳したものとの類似を検索  |
-| MEGABLAST   | 核酸配列     | 核酸配列     |      |
+| MEGABLAST   | 核酸配列     | 核酸配列     | 感度は落ちるが BLASTN より高速。大規模な検索の際に使うと良い                |
 
    1. DDBJ BLASTを体験しよう  
    
@@ -129,6 +129,7 @@ BLAST検索のprogram option
      1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
      1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
      1. 結果が得られたら、眺めてみましょう  
+     
      >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
      BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
    
