@@ -145,14 +145,13 @@ BLAST検索のprogram option
    2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
      
-     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
-     1. 左のカラムから **blastp** を選択  
-     1. **Query** 窓に上記配列をコピペする (cmd-C then cmd-V)  
-     1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
-     1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
-     1. チェックを入れた配列で ClustalW によるマルチプルアラインメントを作成することができます  
-       結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
-       BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
+     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
+     1. 右上の **Login as "guest"** でゲストログイン
+     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
+     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
+     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
+     1. オプションに変更なければ **NEXT**
+     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)
        See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
    自分でコマンド入力してガシガシつかいたいよって方＞小笠原さんの講習をどうぞ！  
 
