@@ -29,7 +29,9 @@ http://www.insdc.org/
    1. DDBJ SRA (DRA)  
    1. DDBJ Trace Archive  
    1. BioProject  
+     - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/  
    1. BioSample  
+     - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/  
    1. JGA  
    どんどんデータベースが増えている。何故か？
 
@@ -51,24 +53,8 @@ http://www.insdc.org/
      1. フラットな固層上に適当な間隔でDNAを1分子ずつ固定、基盤上で「ブリッジPCR」を行い、スポットとしてDNAを増幅  
      2. 相補鎖合成を行いながら、4つの塩基に別々の蛍光標識をつけておいて、結合した塩基の場所をスポットの光として特定し、塩基配列を解読していく。  
 
-   1. Trad
-   
-   1. DDBJ SRA (DRA)
-   1. DDBJ Trace Archive
-   
-     - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
-     
-     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-     
-     【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
-     
-   
-   1. BioProject  
-     - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/  
-     
-   1. BioSample  
-     - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/  
-  
+------------------------------
+
 ## DDBJ で検索 ##
 
    ARSA と getentry  
@@ -94,7 +80,15 @@ http://www.insdc.org/
      2. interleukin-2 から検索スタート
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
      4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-  
+   
+   1. DRAsearch
+   
+     - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
+     
+     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+     
+     【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
+
 ## DDBJ で解析 ##
 
 DDBJ BLAST と DDBJ pipeline の紹介
@@ -187,8 +181,8 @@ DDBJ BLAST と DDBJ pipeline の紹介
   1. DDBJ BLASTを体験しよう  
 
      1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）
-     2. 左のカラムから「BLASTP」を選択
-     3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
+     1. 左のカラムから「BLASTP」を選択
+     1. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
 
      ```
      >opsin Rh2(Drosophila melanogaster)
@@ -201,19 +195,10 @@ DDBJ BLAST と DDBJ pipeline の紹介
      EPKPDAPASDTETTSEADSKA
      ```
   
-     4. 「Choose Search Set」＞「Database」の「swissprot」を選択
-     5. 左下の「BLAST」ボタンをクリック→実行
-     6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
-     7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
-     8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
-     9. 下へスクロールして「Descriptions」へ
-     10. 上から順に数本にチェック入れる
-       1. Download – 手元にダウンロード
-       2. GenPept – GenBank からの翻訳DBへ
-       3. Graphics – グラフィクスでの配列比較
-       4. AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
-       5. Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
-     11. 下へスクロールして「Alignments」へ
+     1. 「Choose Search Set」＞「Database」の「swissprot」を選択
+     1. 左下の「BLAST」ボタンをクリック→実行
+     1. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
+     1. 下へスクロールして「Alignments」へ
   　
    【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
   
