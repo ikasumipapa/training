@@ -16,7 +16,7 @@
 
 ### INSDC: International Nucleotide Sequence Database Collaboration ###
 
-   ** http://www.insdc.org/ **  
+   http://www.insdc.org/  
    - DDBJ (JP): http://www.ddbj.nig.ac.jp/
    - ENA (EU): http://www.ebi.ac.uk/ena/
    - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
@@ -24,14 +24,19 @@
 ## 2. DDBJ のデータベース ##
 
    1. Trad  
+     - Release: http://www.ddbj.nig.ac.jp/breakdown_stats/dbgrowth-e.html#graph
    1. DDBJ SRA (DRA)  
+     - http://trace.ddbj.nig.ac.jp/dra/  
    1. DDBJ Trace Archive  
+     - http://trace.ddbj.nig.ac.jp/dta/  
    1. BioProject  
-     - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/  
+     - http://trace.ddbj.nig.ac.jp/bioproject/  
    1. BioSample  
-     - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/  
-   1. JGA  
-   どんどんデータベースが増えている。何故か？
+     - http://trace.ddbj.nig.ac.jp/biosample/  
+   1. Japanese Genotype-phenotype Archive (JGA)  
+     - http://trace.ddbj.nig.ac.jp/jga/
+   　
+   どんどんデータベースが増えている。何故？
 
 ### シークエンシングテクノロジの進歩 ###
 
@@ -61,7 +66,7 @@
    1. ARSA  
      - きわめて高速。キーワードによる配列検索・取得
      
-     【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
+   【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
    
      1. DDBJ ARSA で検索、ARSA を開く  
      1. Quick Search 窓に **Homo sapiens interleukin 2** と入力する  
