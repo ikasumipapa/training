@@ -71,7 +71,7 @@ http://www.insdc.org/
        検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
    
    1. getentry
-   - きわめて高速な配列取得
+     - きわめて高速な配列取得
      
      1. DDBJ ARSA で検索、ARSA を開く
      2. interleukin-2 から検索スタート
