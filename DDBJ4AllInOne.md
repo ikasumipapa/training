@@ -113,11 +113,7 @@ BLAST検索のprogram option
 
 
    1. DDBJ BLASTを体験しよう  
-
-     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
-     1. 左のカラムから「BLASTP」を選択  
-     1. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)  
-     
+   
      ```
      >opsin Rh2(Drosophila melanogaster)  
      MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL  
@@ -129,18 +125,16 @@ BLAST検索のprogram option
      EPKPDAPASDTETTSEADSKA  
      ```
      
-     1. 「Choose Search Set」＞「Database」の「swissprot」を選択  
-     1. 左下の「BLAST」ボタンをクリック→実行  
-     1. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。  
-     1. 下へスクロールして「Alignments」へ  
-  　
-   【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
-  
-   *e-valueとは？*  
-     E = Kmn^(e-λS)  
-     そのライブラリで偶然に同じスコアでヒットする本数の期待値  
-     ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
-
+     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
+     1. 左のカラムから **blastp** を選択  
+     1. **Query** 窓に上記配列をコピペする (cmd-C then cmd-V)  
+     1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
+     1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
+     1. 結果が得られたら、眺めてみましょう
+     ※ 結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を
+     
+     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html
+   
    2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
      
      【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
