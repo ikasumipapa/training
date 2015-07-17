@@ -75,7 +75,9 @@ http://www.insdc.org/
        ⇒だいぶ減ったが、partial な配列が多数あるようだ  
      1. Search Condition をひらいて、**Homo sapiens "interleukin 2" complete** として検索  
        ⇒検索結果を開き、Features（特徴）を確認しよう。  
-       ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます
+       ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます  
+     
+     【応用】Advanced Search もお試しください。日付や論文等で絞り込みできます  
    
    1. getentry
      - きわめて高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
