@@ -30,6 +30,8 @@ http://www.insdc.org/
    1. DDBJ Trace Archive  
    1. BioProject  
    1. BioSample  
+   1. JGA  1. BioProject  
+   1. BioSample  
    1. JGA
    
    どんどんデータベースが増えている。何故か？
