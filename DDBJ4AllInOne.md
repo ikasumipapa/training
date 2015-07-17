@@ -5,7 +5,7 @@
   
 ## 0. 自己紹介 ##
 
-   49歳。こんな人です。  
+   49歳。DDBJ 7年目、こんな人です。  
      - http://charles.genes.nig.ac.jp/members/yn/  
      - http://twitter.com/yaskaz  
      - http://spysee.jp/中村保一/1034648/  
