@@ -6,10 +6,10 @@
 ### 自己紹介 ###
 
    49歳。こんな人です。  
-     http://charles.genes.nig.ac.jp/members/yn/  
-     http://twitter.com/yaskaz  
-     http://spysee.jp/中村保一/1034648/  
-  　
+     - http://charles.genes.nig.ac.jp/members/yn/  
+     - http://twitter.com/yaskaz  
+     - http://spysee.jp/中村保一/1034648/  
+  　  
      京大→遺伝研→かずさ→遺伝研と「ゲノム」と「情報」を扱ってきています。  
 
 ------------------------------
@@ -29,8 +29,8 @@ http://www.insdc.org/
    1. DDBJ SRA (DRA)  
    1. DDBJ Trace Archive  
    1. BioProject  
-   1. BioSample  
    1. JGA
+   1. BioSample  
 
    どんどんデータベースが増えている。何故か？
 
