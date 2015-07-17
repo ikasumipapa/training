@@ -12,8 +12,6 @@
   　  
      京大→遺伝研→かずさ→遺伝研と「ゲノム」と「情報」を扱ってきています。  
 
-------------------------------
-
 ## 1. DDBJ とはなにか ##
 
 ### INSDC: International Nucleotide Sequence Database Collaboration ###
