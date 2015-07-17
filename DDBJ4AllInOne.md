@@ -70,7 +70,7 @@ http://www.insdc.org/
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
      4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
        検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
-
+   
    1. getentry
    
    - きわめて高速な配列取得
@@ -79,7 +79,7 @@ http://www.insdc.org/
      2. interleukin-2 から検索スタート
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
      4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-
+   
    1. DRAsearch
    
      - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
