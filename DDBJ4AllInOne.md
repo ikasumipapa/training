@@ -117,6 +117,7 @@ BLAST検索のprogram option
      1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
      1. 左のカラムから「BLASTP」を選択  
      1. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)  
+     
      ```
      >opsin Rh2(Drosophila melanogaster)  
      MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL  
@@ -127,6 +128,7 @@ BLAST検索のprogram option
      VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD  
      EPKPDAPASDTETTSEADSKA  
      ```
+     
      1. 「Choose Search Set」＞「Database」の「swissprot」を選択  
      1. 左下の「BLAST」ボタンをクリック→実行  
      1. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。  
