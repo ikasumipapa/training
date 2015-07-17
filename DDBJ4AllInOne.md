@@ -3,7 +3,7 @@
 国立遺伝学研究所  DDBJセンター
 中村保一
   
-### 自己紹介 ###
+## 0. 自己紹介 ##
 
    49歳。こんな人です。  
      - http://charles.genes.nig.ac.jp/members/yn/  
@@ -14,7 +14,7 @@
 
 ------------------------------
 
-## DDBJ とはなにか ##
+## 1. DDBJ とはなにか ##
 
 ### INSDC: International Nucleotide Sequence Database Collaboration ###
 
@@ -23,7 +23,7 @@ http://www.insdc.org/
    - ENA (EU): http://www.ebi.ac.uk/ena/
    - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
 
-## DDBJ のデータベース ##
+## 2. DDBJ のデータベース ##
 
    1. Trad  
    1. DDBJ SRA (DRA)  
@@ -53,9 +53,8 @@ http://www.insdc.org/
      1. フラットな固層上に適当な間隔でDNAを1分子ずつ固定、基盤上で「ブリッジPCR」を行い、スポットとしてDNAを増幅  
      2. 相補鎖合成を行いながら、4つの塩基に別々の蛍光標識をつけておいて、結合した塩基の場所をスポットの光として特定し、塩基配列を解読していく。  
 
-------------------------------
 
-## DDBJ で検索 ##
+## 3. DDBJ で検索 ##
 
    ARSA と getentry  
   
@@ -96,7 +95,7 @@ http://www.insdc.org/
      
      【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
 
-## DDBJ で解析 ##
+## 4. DDBJ で解析 ##
 
 DDBJ BLAST と DDBJ pipeline の紹介
 
