@@ -16,7 +16,7 @@
 
 ### INSDC: International Nucleotide Sequence Database Collaboration ###
 
-http://www.insdc.org/  
+   ** http://www.insdc.org/ **  
    - DDBJ (JP): http://www.ddbj.nig.ac.jp/
    - ENA (EU): http://www.ebi.ac.uk/ena/
    - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
@@ -128,8 +128,7 @@ BLAST検索のprogram option
      1. **Query** 窓に上記配列をコピペする (cmd-C then cmd-V)  
      1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
      1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
-     1. 結果が得られたら、眺めてみましょう  
-     
+     1. チェックを入れた配列で ClustalW によるマルチプルアラインメントを作成することができます  
      >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
      BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
    
