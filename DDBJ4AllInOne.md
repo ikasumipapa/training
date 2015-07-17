@@ -36,7 +36,7 @@
    1. Japanese Genotype-phenotype Archive (JGA)  
      - http://trace.ddbj.nig.ac.jp/jga/  
    　  
-   どんどんデータベースが増えている。何故？
+どんどんデータベースが増えている。何故？
 
 ### シークエンシングテクノロジの進歩 ###
 
