@@ -62,21 +62,29 @@ http://www.insdc.org/
    【実習】塩基配列情報へのアクセス  
 
    1. ARSA  
-     - きわめて高速。キーワードによる配列検索
+     - きわめて高速。キーワードによる配列検索・取得
      
-     1. DDBJ ARSA で検索、ARSA を開く
-     2. interleukin-2 から検索スタート
-     3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
-     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-       検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
+     【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
+     1. DDBJ ARSA で検索、ARSA を開く  
+     1. Quick Search 窓に *Homo sapiens interleukin 2* と入力する  
+       ⇒大量のヒットが得られる。どうもヒト以外もたくさんはいっているようだ  
+     1. Facet の Organism_facet から *Homo sapiens* を選ぶと、ヒトの配列に限定される。だがまだ多いな
+       ⇒interleukin 1 なんかが混入している。"interleukin 2" をセットで検索しましょう  
+     1. Search Condition をひらいて、*Homo sapiens "interleukin 2"* として検索  
+       ⇒だいぶ減ったが、partial な配列が多数あるようだ  
+     1. Search Condition をひらいて、*Homo sapiens "interleukin 2" complete* として検索  
+       ⇒検索結果を開き、Features（特徴）を確認しよう。  
+       ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます
    
    1. getentry
-     - きわめて高速な配列取得
+     - きわめて高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
      
-     1. DDBJ ARSA で検索、ARSA を開く
-     2. interleukin-2 から検索スタート
-     3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
-     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)  
+     1. DDBJ getentry で検索、getentry を開く  
+     2. ID: 窓に *M22005, M26062, D11086* と入力⇒検索  
+       ⇒標準では DDBJ フォーマットでまとめて出力されます  
+     3. 出力形式: *CDS アミノ酸配列 FASTA* を選んで検索  
+       ⇒塩基配列の中から CDS (coding sequence) だけを翻訳した配列が表示される  
+       ⇒連番の ID を取りたいときには *M22005-M22010* のように指定できます    
    
    1. DRAsearch
      - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
