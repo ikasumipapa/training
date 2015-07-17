@@ -152,7 +152,8 @@ BLAST検索のprogram option
      1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
      1. オプションに変更なければ **NEXT**
      1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
-       See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+   
    自分でコマンド入力してガシガシつかいたいよって方＞小笠原さんの講習をどうぞ！  
 
 [end]
