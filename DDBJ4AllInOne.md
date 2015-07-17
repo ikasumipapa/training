@@ -53,27 +53,27 @@
      2. 相補鎖合成を行いながら、4つの塩基に別々の蛍光標識をつけておいて、結合した塩基の場所をスポットの光として特定し、塩基配列を解読していく。  
 
    1. Trad
-
+   
    1. DDBJ SRA (DRA)
    1. DDBJ Trace Archive
-
-  　- NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
-
-   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-  
-   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
-
-   - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/  
-
-   【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
    
-   See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
-  
-   - スパコンくらい自分でガシガシつかえるよってひと＞小笠原さんの講習をどうぞ。  
-
+     - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/  
+     
+     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+     
+     【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
+     
+     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/  
+     
+     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     
+     See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+     
+     - スパコンくらい自分でガシガシつかえるよってひと＞小笠原さんの講習をどうぞ。  
+   
    1. BioProject  
      - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/  
-
+     
    1. BioSample  
      - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/  
   
@@ -83,24 +83,27 @@
    1. getentry  
    
    【実習】塩基配列情報へのアクセス  
-
+   
    1. ARSA  
-
-   - きわめて高速。キーワードによる配列検索
-  
-   1. GQuery をひらき、眺める（大量のデータベースの複合体）
-   2. interleukin-2 から検索スタート
-   3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
-   4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-   5. 左下あたりの「Nucleotide ? 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens を選択
-  
-   検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。  
+   
+     - きわめて高速。キーワードによる配列検索
+     
+     1. DDBJ ARSA で検索、ARSA を開く
+     2. interleukin-2 から検索スタート
+     3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
+     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
+     
+     検索結果を開き、それぞれのFeatures（特徴）を確認しよう。  
 
    1. getentry
-
+   
    - きわめて高速な配列取得
+     
+     1. DDBJ ARSA で検索、ARSA を開く
+     2. interleukin-2 から検索スタート
+     3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
+     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
   
-
 ## DDBJ で解析 ##
 
 ### 配列の類似検索 (BLAST) ###
