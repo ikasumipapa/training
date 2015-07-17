@@ -129,10 +129,8 @@ BLAST検索のprogram option
      1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
      1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
      1. 結果が得られたら、眺めてみましょう  
-     　
-     >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を
-     
-     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html
+     >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
+     BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
    
    2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
      
