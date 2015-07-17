@@ -19,9 +19,9 @@
 ### INSDC: International Nucleotide Sequence Database Collaboration ###
 
 http://www.insdc.org/  
-   - DDBJ(JP): http://www.ddbj.nig.ac.jp/
-   - ENA(EU): http://www.ebi.ac.uk/ena/
-   - GenBank(USA): http://www.ncbi.nlm.nih.gov/Genbank/
+   - DDBJ (JP): http://www.ddbj.nig.ac.jp/
+   - ENA (EU): http://www.ebi.ac.uk/ena/
+   - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
 
 ## DDBJ のデータベース ##
 
@@ -62,13 +62,6 @@ http://www.insdc.org/
      
      【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
      
-     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/  
-     
-     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
-     
-     See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
-     
-     - スパコンくらい自分でガシガシつかえるよってひと＞小笠原さんの講習をどうぞ。  
    
    1. BioProject  
      - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/  
@@ -78,8 +71,7 @@ http://www.insdc.org/
   
 ## DDBJ で検索 ##
 
-   1. ARSA  
-   1. getentry  
+   ARSA と getentry  
   
    【実習】塩基配列情報へのアクセス  
 
@@ -104,6 +96,8 @@ http://www.insdc.org/
      4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
   
 ## DDBJ で解析 ##
+
+DDBJ BLAST と DDBJ pipeline の紹介
 
 ### 配列の類似検索 (BLAST) ###
 
@@ -160,11 +154,6 @@ http://www.insdc.org/
    例: F (Phe) フェニルアラニン UUU, UUC  
    例: L (Leu) ロイシン UUA, UUG, CUU, CUC, CUA, CUG (後ろの４つは実質 CU の二文字で判別可)  
   　
-
-   - DDBJ BLAST
-     - http://blast.ddbj.nig.ac.jp/top-j.html
-     
-
      1. 配列の比較・検索＝アラインメント
      2. アミノ酸配列のアラインメント
      「マトリクス」＝類似の程度を示す
@@ -194,13 +183,12 @@ http://www.insdc.org/
     | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
     | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
   　
-   【実習】BLASTあれこれ  
   
-    DDBJ BLASTを体験しよう  
-  
-   1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）
-   2. 左のカラムから「BLASTP」を選択
-   3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
+  1. DDBJ BLASTを体験しよう  
+
+     1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）
+     2. 左のカラムから「BLASTP」を選択
+     3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
 
      ```
      >opsin Rh2(Drosophila melanogaster)
@@ -213,31 +201,33 @@ http://www.insdc.org/
      EPKPDAPASDTETTSEADSKA
      ```
   
-   4. 「Choose Search Set」＞「Database」の「swissprot」を選択
-   5. 左下の「BLAST」ボタンをクリック→実行
-   6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
-   7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
-   8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
-   9. 下へスクロールして「Descriptions」へ
-   10. 上から順に数本にチェック入れる
+     4. 「Choose Search Set」＞「Database」の「swissprot」を選択
+     5. 左下の「BLAST」ボタンをクリック→実行
+     6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
+     7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
+     8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
+     9. 下へスクロールして「Descriptions」へ
+     10. 上から順に数本にチェック入れる
        1. Download – 手元にダウンロード
        2. GenPept – GenBank からの翻訳DBへ
        3. Graphics – グラフィクスでの配列比較
        4. AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
        5. Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
-   11. 下へスクロールして「Alignments」へ
-   12. アラインメントの右横にある Related Information を活用しよう
-   13. Gene-associated gene details
-   14. Map Viewer-aligned genomic context
-   15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
-       （例）「Choose Search Set」の「Organism」に「Homo sapiens (taxid:9606)」を入れて（Homo あたりまで入れれば補完候補が出る筈）ヒトの opsin を再検索してみましょう。  
-   16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
-   17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
+     11. 下へスクロールして「Alignments」へ
   　
    【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
   
-    *e-valueとは？*  
-   E = Kmn^(e-λS)  
-   そのライブラリで偶然に同じスコアでヒットする本数の期待値  
-   ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
-  　
+   *e-valueとは？*  
+     E = Kmn^(e-λS)  
+     そのライブラリで偶然に同じスコアでヒットする本数の期待値  
+     ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
+
+   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+     
+     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     
+     See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+     
+     - 自分でコマンド入れてガシガシつかえるよってひと＞小笠原さんの講習をどうぞ。  
+
+[end]
