@@ -59,12 +59,12 @@
 
 ## 3. DDBJ で検索 ##
 
-   ARSA と getentry  
+   ARSA, getentry, DRAsearch
   
    【実習】塩基配列情報へのアクセス  
 
    1. ARSA  
-     - きわめて高速。キーワードによる配列検索・取得
+     - 高速なキーワードによる配列検索・取得
      
    【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
    
@@ -81,7 +81,7 @@
      【応用】Advanced Search もお試しください。日付や論文等で絞り込みできます  
    
    1. getentry
-     - きわめて高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
+     - 高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
      
      1. DDBJ getentry で検索、getentry を開く  
      2. ID: 窓に **M22005, M26062, D11086** と入力⇒検索  
