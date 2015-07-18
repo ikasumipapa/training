@@ -14,9 +14,9 @@
 
 ## 1. DDBJ とはなにか ##
 
-### INSDC: International Nucleotide Sequence Database Collaboration ###
+### An INSDC partner ###
 
-   http://www.insdc.org/  
+   International Nucleotide Sequence Database Collaboration (INSDC): http://www.insdc.org/  
    - DDBJ (JP): http://www.ddbj.nig.ac.jp/
    - ENA (EU): http://www.ebi.ac.uk/ena/
    - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
@@ -156,4 +156,8 @@ BLAST検索のprogram option
    
    自分でコマンド入力してガシガシつかいたいよって方＞小笠原さんの講習をどうぞ！  
 
-[end]
+## おわりに ##
+
+   - JGI GOLD: https://gold.jgi-psf.org/
+
+*end*
