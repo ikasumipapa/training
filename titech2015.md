@@ -536,12 +536,13 @@
    既知の遺伝子に類似な配列は遺伝子（たぶん）  
      - オーソログ ortholog （種分化と同時に遺伝子が分離）
      - パラログ paralog （種のなかで遺伝子が重複）
-  
+   　
    - NCBI BLAST  
      - http://www.ncbi.nlm.nih.gov/BLAST/  
    - DDBJ BLAST  
      - http://blast.ddbj.nig.ac.jp/top-j.html  
      - 日本語・clustalwへの連続技が可能  
+   　
    - BLAT  
      - http://genome.ucsc.edu/cgi-bin/hgBlat  
      - 高度な一致を検索する。やたらと高速  
@@ -551,8 +552,8 @@
      1. 配列の比較・検索＝アラインメント  
      2. アミノ酸配列のアラインメント  
      「マトリクス」＝類似の程度を示す  
-     - PAM250  
-     - BLOSUM62  
+       - PAM250  
+       - BLOSUM62  
      3. ダイナミックプログラミング = DP  
   
      「最適経路中の部分経路もまた最適経路になっている」動的計画法は、この原理を利用して最適化問題を解く。  
