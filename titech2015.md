@@ -640,7 +640,7 @@ BLAST検索のprogram option
      - 古典的遺伝学　形態や現象から遺伝子へ
      - 逆遺伝学　遺伝子から形態や現象へ＝遺伝子を「潰す」
    
-   - 実験を使わずに類推する
+   - 実験を使わずに類推する  
      配列の類似 ⇒ 配列が似ていれば機能も似ている（多分）  
      しかし！類似の類似の類似の類似は類似ではないかもしれない  
        - 「相同 (homology) 人の手＝猫の足＝鳥の羽  
@@ -650,14 +650,14 @@ BLAST検索のprogram option
 
    「嘘類似」の問題回避法は？  
    
-   1. 配列類似検索の対象は、信頼できるライブラリから順に使う
+     1. 配列類似検索の対象は、信頼できるライブラリから順に使う
      
-     - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
-     - nr: (see. 2. BLAST Database Content)
+       - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
+       - nr: (see. 2. BLAST Database Content)
    
-   2. 配列類似検索以外の機能予測方法を用いる
+     2. 配列類似検索以外の機能予測方法を用いる
    
-   機能に関わるタンパク質の部分配列（モチーフやドメイン）  
+     機能に関わるタンパク質の部分配列（モチーフやドメイン）  
      
      - InterPro: さまざまなタンパク質機能探索のための統合データベース  
        - http://www.ebi.ac.uk/interpro
