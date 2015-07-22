@@ -590,7 +590,7 @@ BLAST検索のprogram option
      EPKPDAPASDTETTSEADSKA  
      ```
    
-     1. http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
+     1. http://blast.ncbi.nlm.nih.gov/Blast.cgi を開く
      2. 「protein BLAST」を選択
      3. 「Search」窓に上記の配列をコピペする (cmd-C then cmd-V)
      4. 「Choose Search Set」＞「Database」の「swissprot」を選択
