@@ -604,7 +604,7 @@ BLAST検索のprogram option
     
    3. 注釈の「根拠 (evidence)」が明示できる方法で注釈する
    
-   see: http://www.geneontology.org/ -> Documentation -> Evidence Code Guide  
+   see: http://www.geneontology.org/ -> Documentation -> Annotation -> Guide to Evidence Codes  
   
      - IDA (Inferred from Direct Assay)
      - TAS (traceable author statement)
