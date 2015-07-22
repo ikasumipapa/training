@@ -614,7 +614,7 @@ BLAST検索のprogram option
   
 ###【実習】InterPro・GOで遺伝子機能のエビデンスを確認しよう ###
 
-#### 1. InterProScan ####
+#### 1. InterProScan: http://www.ebi.ac.uk/interpro ####
   
    - モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト  
 ```
@@ -627,7 +627,7 @@ YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
 VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
 EPKPDAPASDTETTSEADSKA
 ```
-   1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
+   1. googleの検索窓に「InterProScan」と入れて、googleで探し出す  
    2. Enter or paste a PROTEIN sequence in any supported format: の枠に上記の配列をコピペする (ctl-C then ctl-V)  
    3. 「Submit」をクリックしてジョブをスタート  
    4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）  
@@ -637,7 +637,7 @@ EPKPDAPASDTETTSEADSKA
   
 #### 2. GO: http://www.geneontology.org ####
   
-   - 遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
+   - 遺伝子機能注釈のための生物共通語彙を提供。evidence のレベルで絞り込むことができます
    
    【実習】生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう  
    1. circadian rhythm (GO:0007623) で検索  
@@ -712,7 +712,7 @@ EPKPDAPASDTETTSEADSKA
      4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
      5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
 
-#### 4. ExPASy http://www.expasy.org/ ####
+###  ExPASy http://www.expasy.org/ ###
   
    - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富  
   　
