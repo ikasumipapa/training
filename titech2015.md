@@ -537,7 +537,7 @@
      - オーソログ ortholog （種分化と同時に遺伝子が分離）
      - パラログ paralog （種のなかで遺伝子が重複）
   
-   -NCBI BLAST  
+   - NCBI BLAST  
      - http://www.ncbi.nlm.nih.gov/BLAST/  
    - DDBJ BLAST  
      - http://blast.ddbj.nig.ac.jp/top-j.html  
