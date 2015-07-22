@@ -516,10 +516,10 @@
 
    注釈には二種類ある
 
-   - 構造注釈 structural annotation
-     - 遺伝子の構造を記載したアノテーション
-   -機能注釈 functional annotation
-     - 遺伝子の機能を記載したアノテーション
+   - 構造注釈 structural annotation  
+     - 遺伝子の構造を記載したアノテーション  
+   -機能注釈 functional annotation  
+     - 遺伝子の機能を記載したアノテーション  
   
    (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
@@ -534,8 +534,8 @@
 1. 類似配列検索
 
    既知の遺伝子に類似な配列は遺伝子（たぶん）  
-     - オーソログ ortholog （種分化と同時に遺伝子が分離）
-     - パラログ paralog （種のなかで遺伝子が重複）
+     - オーソログ ortholog （種分化と同時に遺伝子が分離）  
+     - パラログ paralog （種のなかで遺伝子が重複）  
 
    - NCBI BLAST  
      - http://www.ncbi.nlm.nih.gov/BLAST/  
