@@ -372,14 +372,10 @@
    2. interleukin-2 から検索スタート
    3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
    4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-   5. 左下あたりの「Nucleotide ? 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens を選択
-  
-   検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。  
-  
-【応用】: Pubmed で同様に論文を検索しなさい。  
-  
-【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
-  　
+   5. 左下あたりの「Nucleotide ? 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens を選択  
+   6. 検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。  
+   【応用】: Pubmed で同様に論文を検索しなさい。  
+   【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
   
 #### 3. GOLD: http://www.genomesonline.org ####
 
