@@ -648,7 +648,7 @@ EPKPDAPASDTETTSEADSKA
 
 ## appendix: 時間があれば紹介 ##
 
-### DDBJ の NGS アーカイブと、解析パイプライン ###
+#### DDBJ の NGS アーカイブと、解析パイプライン ####
 
    - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
 
@@ -684,7 +684,7 @@ EPKPDAPASDTETTSEADSKA
 
    - スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
 
-### TogoAnnotation (旧 KazusaAnnotation) の活用 ###
+#### 2. TogoAnnotation (旧 KazusaAnnotation) の活用 ####
 
    - ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
@@ -712,7 +712,7 @@ EPKPDAPASDTETTSEADSKA
      4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
      5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
 
-###  ExPASy http://www.expasy.org/ ###
+#### 3: ExPASy http://www.expasy.org/ ####
   
    - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富  
   　
