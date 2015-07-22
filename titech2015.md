@@ -399,43 +399,6 @@
    > See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
 
 
-#### 5. DDBJ の NGS アーカイブと、解析パイプライン ####
-
-   - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
-
-   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-
-   1. DRAsearch
-     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
-   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
-   
-   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-   
-     1. DRAsearch を開く  
-     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
-     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
-     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
-     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
-     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
-     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
-   
-   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
-     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
-   
-     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
-     
-     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
-     1. 右上の **Login as "guest"** でゲストログイン
-     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
-     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
-     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
-     1. オプションに変更なければ **NEXT**
-     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
-     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
-
-   - スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
-
-
 ## 3. 配列類似検索 ##
 
 ### 塩基配列の注釈の基礎 (annotation) ###
@@ -683,7 +646,46 @@ EPKPDAPASDTETTSEADSKA
    3. 任意の遺伝子を選択  
    3. 左ペインの Evidence type を展開してそれぞれのアノテーションの根拠を確認してみよう  
 
-#### 3. TogoAnnotation (旧 KazusaAnnotation) の活用 ####
+
+## appendix: 時間があれば紹介 ##
+
+### DDBJ の NGS アーカイブと、解析パイプライン ###
+
+   - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
+
+   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+
+   1. DRAsearch
+     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
+   
+   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+   
+     1. DRAsearch を開く  
+     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
+     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
+     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
+     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
+     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
+     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
+   
+   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+   
+     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     
+     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
+     1. 右上の **Login as "guest"** でゲストログイン
+     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
+     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
+     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
+     1. オプションに変更なければ **NEXT**
+     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
+     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+
+   - スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
+
+### TogoAnnotation (旧 KazusaAnnotation) の活用 ###
 
    - ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
@@ -718,6 +720,4 @@ EPKPDAPASDTETTSEADSKA
    The ExPASy (Expert Protein Analysis System) proteomics server of the Swiss Institute of Bioinformatics (SIB) is dedicated to the analysis of protein sequences and structures as well as 2-D PAGE  
    - タンパク質の同定 (peptide mass fingerprint, pI, MW etc.): Aldente, TagIdent, MultiIdent, AACompIdent  
    - 翻訳後修飾や切断部位の推定: Findmod, FindPept, GlycoMod などなど、多数のツールを提供。
-
-[end]
 
