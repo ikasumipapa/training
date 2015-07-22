@@ -547,7 +547,7 @@
      - 高度な一致を検索する。やたらと高速  
 
    遺伝子のレパートリーは数え尽くされたか？→No。誰とも似ていない遺伝子がたくさんある→配列パターンによる遺伝子発見
-
+   
      1. 配列の比較・検索＝アラインメント  
      2. アミノ酸配列のアラインメント  
      「マトリクス」＝類似の程度を示す  
@@ -592,23 +592,21 @@ BLAST検索のprogram option
    
      1. http://blast.ncbi.nlm.nih.gov/Blast.cgi を開く
      2. 「protein BLAST」を選択
-     3. 「Search」窓に上記の配列をコピペする (cmd-C then cmd-V)
-     4. 「Choose Search Set」＞「Database」の「swissprot」を選択
+     3. 「Enter accession number(s), gi(s), or FASTA sequence(s) 」窓に上記の配列をコピペする (cmd-C then cmd-V)
+     4. 「Choose Search Set」＞「Database」の「UniProtKB/Swiss-Prot(swissprot)」を選択
      5. 左下の「BLAST」ボタンをクリック→実行
      6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
-     7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
+     7. 「Conserved domains」画像中の「7tm_1 superfamily」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
      8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
      9. 下へスクロールして「Descriptions」へ
      10. 上から順に数本にチェック入れる
        1. Download – 手元にダウンロード
        2. GenPept – GenBank からの翻訳DBへ
        3. Graphics – グラフィクスでの配列比較
-       4. AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
-       5. Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
+       4. Distance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
+       5. Multiple alignment – 選んだ配列で COBALT によるマルチプルアラインメントを実施
      11. 下へスクロールして「Alignments」へ
      12. アラインメントの右横にある Related Information を活用しよう
-     13. Gene-associated gene details
-     14. Map Viewer-aligned genomic context
      15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
        （例）「Choose Search Set」の「Organism」に「Homo sapiens (taxid:9606)」を入れて（Homo あたりまで入れれば補完候補が出る筈）ヒトの opsin を再検索してみましょう。  
      16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
