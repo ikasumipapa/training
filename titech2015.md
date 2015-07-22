@@ -422,11 +422,10 @@
    - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
 
    SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-  
-   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
-   
+
    1. DRAsearch
-   - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
    
    SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
    
@@ -439,7 +438,7 @@
      1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
    
    2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
-   - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
    
      【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
      
