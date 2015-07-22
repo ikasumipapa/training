@@ -683,15 +683,14 @@ EPKPDAPASDTETTSEADSKA
    【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう  
   　
   
-#### 2. GO ####
+#### 2. GO: http://www.geneontology.org ####
   
    - 遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
-  
-   http://www.geneontology.org生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう
-  
-   1. circadian rhythm (GO:0007623) で検索
-   2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む
-   3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
+   
+   【実習】生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう  
+   1. circadian rhythm (GO:0007623) で検索  
+   2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む  
+   3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する  
 
 #### 3. TogoAnnotation (旧 KazusaAnnotation) の活用 ####
 
