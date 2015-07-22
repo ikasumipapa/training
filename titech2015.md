@@ -657,6 +657,7 @@ BLAST検索のprogram option
    機能とかかわらない領域の部分的な一致が非常に危険  
    
    「嘘類似」の問題回避法は？  
+   
    1. 配列類似検索の対象は、信頼できるライブラリから順に使う
      
      - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
