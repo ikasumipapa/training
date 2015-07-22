@@ -515,12 +515,12 @@
 #### ゲノムの注釈 genome annotation ####
 
    注釈には二種類ある
-
+   
    - 構造注釈 structural annotation  
      - 遺伝子の構造を記載したアノテーション  
-   -機能注釈 functional annotation  
+   - 機能注釈 functional annotation  
      - 遺伝子の機能を記載したアノテーション  
-  
+     
    (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
   
