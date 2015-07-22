@@ -305,15 +305,68 @@
   
 ### DDBJ @ 国立遺伝学研究所 http://www.ddbj.nig.ac.jp ###
 
-   - GenBank, ENA と国際協力関係にある、塩基配列のアーカイブです
+   An INSDC partner
+
+   International Nucleotide Sequence Database Collaboration (INSDC): http://www.insdc.org/  
+   - DDBJ (JP): http://www.ddbj.nig.ac.jp/
+   - ENA (EU): http://www.ebi.ac.uk/ena/
+   - GenBank (USA): http://www.ncbi.nlm.nih.gov/Genbank/
+
+### INSDC / DDBJ のデータベース ###
+
+   1. Trad  
+     - DDBJ の紹介: http://www.ddbj.nig.ac.jp/intro-j.html  
+     - Release: http://www.ddbj.nig.ac.jp/breakdown_stats/dbgrowth-e.html#graph  
+   1. DDBJ SRA (DRA)  
+     - http://trace.ddbj.nig.ac.jp/dra/  
+   1. DDBJ Trace Archive  
+     - http://trace.ddbj.nig.ac.jp/dta/  
+   1. BioProject  
+     - http://trace.ddbj.nig.ac.jp/bioproject/  
+   1. BioSample  
+     - http://trace.ddbj.nig.ac.jp/biosample/  
+   1. Japanese Genotype-phenotype Archive (JGA)  
+     - http://trace.ddbj.nig.ac.jp/jga/  
+   ⇒どんどんデータベースが増えている。何故？
 
 ------------------------------
 
 ###【実習】塩基配列情報へのアクセス ###
 
-#### 1. Entrez 改め GQuery http://www.ncbi.nlm.nih.gov/gquery ####
+#### 1. DDBJ で検索 ####
+
+   1. ARSA  
+     - 高速なキーワードによる配列検索・取得
+     
+   【課題】DDBJ でヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
+   
+     1. DDBJ ARSA で検索、ARSA を開く  
+     1. Quick Search 窓に **Homo sapiens interleukin 2** と入力する  
+       ⇒大量のヒットが得られる。どうもヒト以外もたくさんはいっているようだ  
+     1. Facet の Organism_facet から **Homo sapiens** を選ぶと、ヒトの配列に限定される。だがまだ多いな
+       ⇒interleukin 1 なんかが混入している。"interleukin 2" をセットで検索しましょう  
+     1. Search Condition をひらいて、**Homo sapiens "interleukin 2"** として検索  
+       ⇒だいぶ減ったが、partial な配列が多数あるようだ  
+     1. Search Condition をひらいて、**Homo sapiens "interleukin 2" complete** として検索  
+       ⇒検索結果を開き、Features（特徴）を確認しよう。  
+       ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます  
+     【応用】Advanced Search もお試しください。日付や論文等で絞り込みできます  
+   
+   1. getentry
+     - 高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
+     
+     1. DDBJ getentry で検索、getentry を開く  
+     2. ID: 窓に **M22005, M26062, D11086** と入力⇒検索  
+       ⇒標準では DDBJ フォーマットでまとめて出力されます  
+     3. 出力形式: **CDS アミノ酸配列 FASTA** を選んで検索  
+       ⇒塩基配列の中から CDS (coding sequence) だけを翻訳した配列が表示される  
+       ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
+
+#### 2. Entrez 改め GQuery http://www.ncbi.nlm.nih.gov/gquery ####
 
    - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
+    
+   【課題】NCBI でヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
   
    1. GQuery をひらき、眺める（大量のデータベースの複合体）
    2. interleukin-2 から検索スタート
@@ -328,7 +381,7 @@
 【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
   　
   
-#### 2. GOLD: http://www.genomesonline.org ####
+#### 3. GOLD: http://www.genomesonline.org ####
 
    *世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース*
 
@@ -352,7 +405,7 @@
 
 ------------------------------
 
-#### 3. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/gquery ####
+#### 4. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/gquery ####
 
    - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
   
@@ -367,27 +420,46 @@
 
 ------------------------------
 
-#### 4. DDBJ の NGS アーカイブと、解析パイプライン、BioProject ####
+#### 5. DDBJ の NGS アーカイブと、解析パイプライン ####
 
    - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
 
    SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
   
-   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。SRA 単独を探す場合には NCBI よりも使いやすいという評判もありますよ
-
-   - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
-
-   【デモ】右上の Login as “guest” から利用イメージをみてみましょう
+   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
+   
+      1. DRAsearch
+     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+     
+     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+     
+     1. DRAsearch を開く  
+     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
+     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
+     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
+     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
+     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
+     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
+   
+     2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+   
+     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     
+     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
+     1. 右上の **Login as "guest"** でゲストログイン
+     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
+     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
+     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
+     1. オプションに変更なければ **NEXT**
+     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
+     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+   
    
    See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html
   
    - スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
 
-   - 今後重要になってくる Bundle 型 DB
-
-     - DDBJ BioProject: http://trace.ddbj.nig.ac.jp/bioproject/
-     - DDBJ BioSample: http://trace.ddbj.nig.ac.jp/biosample/
-  
 
 ## 3. 配列類似検索 ##
 
@@ -516,6 +588,7 @@
     | BLASTX      | 核酸配列     | アミノ酸配列 | 問い合わせ核酸配列をアミノ酸に翻訳した配列で、類似のアミノ酸配列を検索      |
     | TBLASTN     | アミノ酸配列 | 核酸配列     | アミノ酸配列を核酸配列のデータベースを翻訳したものと類似の配列を検索        |
     | TBLASTX     | 核酸配列     | 核酸配列     | 問い合わせ核酸配列を翻訳したものを、核酸配列DBを翻訳したものとの類似を検索  |
+    | MEGABLAST   | 核酸配列     | 核酸配列     | 感度は落ちるが BLASTN より高速。大規模な検索の際に使うと良い                |
     | PSI-BLAST   | アミノ酸配列 | アミノ酸配列 | DBとの検索を繰り返すことで、弱い類似しかない配列を検索可能にする方法        |
     | PHI-BLAST   | アミノ酸配列 | アミノ酸配列 | 配列の「パターン」で類似の配列を検索する                                    |
   　
@@ -572,8 +645,7 @@
    ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
   　
 ------------------------------
-  
-(ここから先未完成。とりあえずドラフト）
+
 #### 遺伝子機能予測 ####
 
    遺伝子の機能を知るためには
