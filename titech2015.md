@@ -689,8 +689,9 @@ EPKPDAPASDTETTSEADSKA
    
    【実習】生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう  
    1. circadian rhythm (GO:0007623) で検索  
-   2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む  
-   3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する  
+   2. Search Directory から Genes and gene products を選択⇒circadian rhythm関係の遺伝子がリストされる
+   3. 任意の遺伝子を選択  
+   3. 左ペインの Evidence type を展開してそれぞれのアノテーションの根拠を確認してみよう  
 
 #### 3. TogoAnnotation (旧 KazusaAnnotation) の活用 ####
 
