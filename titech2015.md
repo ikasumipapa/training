@@ -4,6 +4,7 @@
 中村保一 (July 16 / 23, 2014)  
   
 # この資料のURL→ http://bit.ly/yn15titech #
+## (July 23 ここから: https://github.com/ikasumipapa/training/blob/master/titech2015.md#2-配列決定法とゲノムプロジェクト ##
   
 ## 0. イントロダクション ##
 
