@@ -677,9 +677,6 @@ BLAST検索のprogram option
 1. InterProScan
   
    - モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト  
-  
-   1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
-   2. Enter or paste a PROTEIN sequence in any supported format: の枠に以下の配列をコピペする (ctl-C then ctl-V)
 
      ```
      >opsin Rh2(Drosophila melanogaster)
@@ -691,9 +688,10 @@ BLAST検索のprogram option
      VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
      EPKPDAPASDTETTSEADSKA
      ```
-
-   3. 「Submit」をクリックしてジョブをスタート
-   4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）
+   1. googleの検索窓に「InterProScan」と入れて、googleで探し出す ( http://www.ebi.ac.uk/interpro/ )  
+   2. Enter or paste a PROTEIN sequence in any supported format: の枠に上記の配列をコピペする (ctl-C then ctl-V)  
+   3. 「Submit」をクリックしてジョブをスタート  
+   4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）  
   　
   
    【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう  
