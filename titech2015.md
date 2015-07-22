@@ -403,8 +403,6 @@
   
    See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
 
-------------------------------
-
 #### 4. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/gquery ####
 
    - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
@@ -418,7 +416,6 @@
   
    See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
 
-------------------------------
 
 #### 5. DDBJ の NGS アーカイブと、解析パイプライン ####
 
@@ -428,11 +425,11 @@
   
    【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
    
-      1. DRAsearch
-     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
-     
-     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-     
+   1. DRAsearch
+   - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+   
+   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+   
      1. DRAsearch を開く  
      ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
      1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
@@ -441,8 +438,8 @@
      ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
      1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
    
-     2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
-     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+   - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
    
      【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
      
