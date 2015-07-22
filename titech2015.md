@@ -386,7 +386,7 @@
   　　  
    See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
 
-#### 4. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/gquery ####
+#### 4. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/taxonomy ####
 
    - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
    【実習】あなたが興味のある生物種のプロジェクトはないかNCBI Taxonomy で調べてみよう （例：Arabidopsis, cat, mouse, … あなたの研究対象／興味のある生物でどうぞ）  
