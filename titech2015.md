@@ -523,7 +523,7 @@
    (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
    
-   遺伝子の「構造 structure」を予測すること  
+   - 遺伝子の「構造 structure」を予測すること  
      DNAは読めるが、それだけでは遺伝子はわからない  
      ゲノムを読んだら遺伝子の構造を把握することがまず第一  
   
@@ -534,7 +534,7 @@
    既知の遺伝子に類似な配列は遺伝子（たぶん）  
      - オーソログ ortholog （種分化と同時に遺伝子が分離）  
      - パラログ paralog （種のなかで遺伝子が重複）  
-   
+   　  
    - NCBI BLAST  
      - http://www.ncbi.nlm.nih.gov/BLAST/  
    - DDBJ BLAST  
