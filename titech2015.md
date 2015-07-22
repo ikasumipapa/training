@@ -465,7 +465,7 @@
      - 遺伝子の構造を記載したアノテーション  
    - 機能注釈 functional annotation  
      - 遺伝子の機能を記載したアノテーション  
-   (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
+   INSDC の例: http://www.ncbi.nlm.nih.gov/nuccore/4732164 (Arabidopsis BAC F10A2)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
    - 遺伝子の「構造 structure」を予測すること  
      DNAは読めるが、それだけでは遺伝子はわからない  
