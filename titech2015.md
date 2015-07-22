@@ -677,7 +677,6 @@ BLAST検索のprogram option
 1. InterProScan
   
    - モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト  
-
      ```
      >opsin Rh2(Drosophila melanogaster)
      MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
@@ -693,13 +692,12 @@ BLAST検索のprogram option
    3. 「Submit」をクリックしてジョブをスタート  
    4. この配列がもつモチーフ・プロファイルを確認しましょう（G_PROTEIN, 7tm, OPSIN, Visual pigments (opsins) retinal binding site, etc.）  
   　
-  
    【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう  
   　
   
 2. GO
   
-   遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
+   - 遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
   
    http://www.geneontology.org生物の体内時計 (circadian clock) に関する遺伝子について検索してみましょう
   
@@ -708,7 +706,7 @@ BLAST検索のprogram option
    3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
   　
 3. TogoAnnotation (旧 KazusaAnnotation) の活用  
-　
+
    -ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
 
