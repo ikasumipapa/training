@@ -716,45 +716,38 @@ BLAST検索のprogram option
    2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む
    3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
   　
-3. TogoAnnotation (旧 KazusaAnnotation) の活用
+3. TogoAnnotation (旧 KazusaAnnotation) の活用  
   　
    ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
-  　
-   なぜこんなものをつくったのか  
-  
-   - ゲノムの「アノテーション」が怪しい
+　
+   なぜこんなものをつくったのか?  
+   - ゲノムの「アノテーション」が怪しい  
       アノテーションとは、遺伝子の場所や機能を推測した情報  
       アノテーションの改善が必要。しかしあまりに膨大  
-
    - 大勢の力を結集することが必要  
-      そのための仕組みとして、ソーシャルブックマークを利用する
-      普通のブックマークはあなたのパソコンのなか、ソーシャルブックマークはネット上で共有するブックマーク
-
+      そのための仕組みとして、ソーシャルブックマークを利用する  
+      普通のブックマークはあなたのパソコンのなか、ソーシャルブックマークはネット上で共有するブックマーク  
    詳細は、googleで検索してみてください
-
    - どんな情報が入っているのか  
-      - シアノバクテリア（酸素発生型光合成細菌）
-      - 根粒菌（細胞内共生型窒素固定最近）
-      - 高等植物（マメ科植物のミヤコグサ）
-  
-   とくにかずさDNA研究所が世界で初めて全ゲノムを決定した独立栄養生物である *Synechocystis* PCC 6803 の論文はほぼ全部、入力されています。これはすごい！  
+      - シアノバクテリア（酸素発生型光合成細菌）  
+      - 根粒菌（細胞内共生型窒素固定最近）  
+      - 高等植物（マメ科植物のミヤコグサ）  
+   とくにかずさDNA研究所が世界で初めて全ゲノムを決定した独立栄養生物である *Synechocystis* PCC 6803 の論文はほぼ全部、入力されています。これはすごい！ 
   　
-【実習】TogoAnnotationの利用例
-  　
-   1. http://togo.annotation.jp/ を開いてみましょう
-   2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します
-   3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867 遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)
-   4. Pubmed ID (例えば 12228353) をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。
-   5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。
-  　
-  
+【実習】TogoAnnotationの利用例  
+
+   1. http://togo.annotation.jp/ を開いてみましょう  
+   2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します  
+   3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867  遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)  
+   4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
+   5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
+
 4. ExPASy http://www.expasy.org/
   
-   - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富
+   - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富  
   　
    The ExPASy (Expert Protein Analysis System) proteomics server of the Swiss Institute of Bioinformatics (SIB) is dedicated to the analysis of protein sequences and structures as well as 2-D PAGE  
-
    - タンパク質の同定 (peptide mass fingerprint, pI, MW etc.): Aldente, TagIdent, MultiIdent, AACompIdent  
    - 翻訳後修飾や切断部位の推定: Findmod, FindPept, GlycoMod などなど、多数のツールを提供。
 
