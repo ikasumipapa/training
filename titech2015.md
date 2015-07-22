@@ -655,22 +655,22 @@ BLAST検索のprogram option
 
     部分一致している部分は機能と関わらないかもしれない  
    機能とかかわらない領域の部分的な一致が非常に危険  
-   「嘘類似」の問題回避法  
-
-1. 配列類似検索の対象は、信頼できるライブラリから順に使う
-  
-   - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
-   - nr: (see. 2. BLAST Database Content)
-
-2. 配列類似検索以外の機能予測方法を用いる
-  
+   
+   「嘘類似」の問題回避法は？  
+   1. 配列類似検索の対象は、信頼できるライブラリから順に使う
+     
+     - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
+     - nr: (see. 2. BLAST Database Content)
+   
+   2. 配列類似検索以外の機能予測方法を用いる
+   
    機能に関わるタンパク質の部分配列（モチーフやドメイン）  
-
-   - InterPro: さまざまなタンパク質機能探索のための統合データベース  
-    - http://www.ebi.ac.uk/interpro
-  
-3. 注釈の「根拠 (evidence)」が明示できる方法で注釈する
-  
+     
+     - InterPro: さまざまなタンパク質機能探索のための統合データベース  
+       - http://www.ebi.ac.uk/interpro
+    
+   3. 注釈の「根拠 (evidence)」が明示できる方法で注釈する
+   
    see: http://www.geneontology.org/ -> Documentation -> Evidence Code Guide  
   
      - IDA (Inferred from Direct Assay)
