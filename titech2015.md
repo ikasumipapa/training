@@ -542,7 +542,6 @@
    - DDBJ BLAST  
      - http://blast.ddbj.nig.ac.jp/top-j.html  
      - 日本語・clustalwへの連続技が可能  
-
    - BLAT  
      - http://genome.ucsc.edu/cgi-bin/hgBlat  
      - 高度な一致を検索する。やたらと高速  
