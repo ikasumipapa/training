@@ -578,42 +578,41 @@ BLAST検索のprogram option
    【実習】BLASTあれこれ  
   
    - NCBI BLASTを体験しよう  
-  
-   1. http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
-   2. 「protein BLAST」を選択
-   3. 「Search」窓に以下の配列をコピペする (cmd-C then cmd-V)
-
+   
      ```
-     >opsin Rh2(Drosophila melanogaster)
-     MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL
-     GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY
-     ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI
-     WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS
-     YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL
-     VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD
-     EPKPDAPASDTETTSEADSKA
+     >opsin Rh2(Drosophila melanogaster)  
+     MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL  
+     GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY  
+     ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI  
+     WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS  
+     YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL  
+     VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD  
+     EPKPDAPASDTETTSEADSKA  
      ```
-  
-   4. 「Choose Search Set」＞「Database」の「swissprot」を選択
-   5. 左下の「BLAST」ボタンをクリック→実行
-   6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
-   7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
-   8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
-   9. 下へスクロールして「Descriptions」へ
-   10. 上から順に数本にチェック入れる
+   
+     1. http://blast.ncbi.nlm.nih.gov/Blast.cgiを開く
+     2. 「protein BLAST」を選択
+     3. 「Search」窓に上記の配列をコピペする (cmd-C then cmd-V)
+     4. 「Choose Search Set」＞「Database」の「swissprot」を選択
+     5. 左下の「BLAST」ボタンをクリック→実行
+     6. まず「Conserved domains」が示される（BLASTの結果が帰って来た後でも「Graphic Summary」の「Show Conserved Domains」から閲覧可能）
+     7. 「Conserved domains」画像中の「7tm_1」をクリック → Conserved Domain として「7tm_1[pfam00001], 7 transmembrane receptor (rhodopsin family)」が見いだされた（７回膜貫通型receptor）
+     8. そろそろ結果が得られているはず。Graphic Summary, Descriptions を眺めてみよう。
+     9. 下へスクロールして「Descriptions」へ
+     10. 上から順に数本にチェック入れる
        1. Download – 手元にダウンロード
        2. GenPept – GenBank からの翻訳DBへ
        3. Graphics – グラフィクスでの配列比較
        4. AlignmentsDistance tree of results – 簡易的な系統樹が描ける。ざっくり観たいときに便利
        5. Multiple alignment – 選んだ配列でマルチプルアラインメントを実施
-   11. 下へスクロールして「Alignments」へ
-   12. アラインメントの右横にある Related Information を活用しよう
-   13. Gene-associated gene details
-   14. Map Viewer-aligned genomic context
-   15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
+     11. 下へスクロールして「Alignments」へ
+     12. アラインメントの右横にある Related Information を活用しよう
+     13. Gene-associated gene details
+     14. Map Viewer-aligned genomic context
+     15. 結果上部のリンク「Edit and Resubmit」から生物種やキーワードでの検索結果のしぼりこみができます
        （例）「Choose Search Set」の「Organism」に「Homo sapiens (taxid:9606)」を入れて（Homo あたりまで入れれば補完候補が出る筈）ヒトの opsin を再検索してみましょう。  
-   16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
-   17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
+     16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
+     17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
   　
   
    【参考】: cDNAやESTのゲノムへのマッピング（貼り付け）は、BLATのほうがよい。ただしWWWで検索できる生物種はほとんどが animal。上記リンクで確認しよう。  
@@ -627,7 +626,6 @@ BLAST検索のprogram option
    そのライブラリで偶然に同じスコアでヒットする本数の期待値  
    ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
   　
-------------------------------
 
 #### 遺伝子機能予測 ####
 
