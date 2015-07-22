@@ -738,11 +738,11 @@ BLAST検索のprogram option
 
 【実習】TogoAnnotationの利用例  
 
-   1. http://togo.annotation.jp/ を開いてみましょう  
-   2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します  
-   3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867  遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)  
-   4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
-   5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
+     1. http://togo.annotation.jp/ を開いてみましょう  
+     2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します  
+     3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867  遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)  
+     4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
+     5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
 
 4. ExPASy http://www.expasy.org/
   
