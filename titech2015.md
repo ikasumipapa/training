@@ -542,13 +542,10 @@
    - DDBJ BLAST  
      - http://blast.ddbj.nig.ac.jp/top-j.html  
      - 日本語・clustalwへの連続技が可能  
-
    - BLAT  
      - http://genome.ucsc.edu/cgi-bin/hgBlat  
      - 高度な一致を検索する。やたらと高速  
-  
    遺伝子のレパートリーは数え尽くされたか？→No。誰とも似ていない遺伝子がたくさんある→配列パターンによる遺伝子発見
-
      1. 配列の比較・検索＝アラインメント  
      2. アミノ酸配列のアラインメント  
      「マトリクス」＝類似の程度を示す  
