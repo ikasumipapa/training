@@ -736,8 +736,8 @@ BLAST検索のprogram option
       - 高等植物（マメ科植物のミヤコグサ）  
    とくにかずさDNA研究所が世界で初めて全ゲノムを決定した独立栄養生物である *Synechocystis* PCC 6803 の論文はほぼ全部、入力されています。これはすごい！   
 
-【実習】TogoAnnotationの利用例  
-
+   【実習】TogoAnnotationの利用例  
+   
      1. http://togo.annotation.jp/ を開いてみましょう  
      2. 酸素発生型光合成細菌の **Synechocystis** の光合成系IIの遺伝子psbA3のアノテーションを検索しましょう。右上の検索窓に「Synechocystis psbA3」と入れて「検索」を押します  
      3. sll1867 の赤い字でしめされた「? annotations」をクリックすると sll1867  遺伝子についたアノテーション（＝ブックマーク）が一覧されます。遺伝子シンボルの表記の揺れが人力で解消されていることに注目してください（psbA3, psbA, psbAIII, psba-3)  
