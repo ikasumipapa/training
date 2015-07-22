@@ -668,9 +668,9 @@ BLAST検索のprogram option
      - ISS (Inferred from Sequence or Structural similarity) etc.
   　
   
-【実習】InterPro・GO  
-  
-1. InterProScan
+###【実習】InterPro・GOで遺伝子機能のエビデンスを確認しよう ###
+
+#### 1. InterProScan ####
   
    - モチーフ、プロファイル検索のまとめがけ、Gene Ontrogyにまで到達可能な優れたアミノ酸配列解析総合サイト  
    
@@ -693,7 +693,7 @@ BLAST検索のprogram option
    【発展】どのようなプログラムが使われているのか？それぞれの詳細について知っておきましょう  
   　
   
-2. GO
+#### 2. GO ####
   
    - 遺伝子機能注釈のための生物共通語彙を提供。evidence が明記されているのはすばらしい  
   
@@ -702,8 +702,8 @@ BLAST検索のprogram option
    1. circadian rhythm (GO:0007623) で検索
    2. 左ペインの Taxon から Arabidopsis, Mouse, Human などを選択し、生物種を絞り込む
    3. 左ペインの Evidence type から direct assay evidence (IDS), traceable author statement (TAS) などでしぼりこんで情報の信頼性の高いアノテーションを選抜する
-  　
-3. TogoAnnotation (旧 KazusaAnnotation) の活用  
+
+#### 3. TogoAnnotation (旧 KazusaAnnotation) の活用 ####
 
    - ソーシャルブックマークによるゲノムアノテーション蓄積／改善／統合サイト。  
    5,830 報文から 66,787 遺伝子に関する 388,914 アノテーション (2015年7月23日現在) を収集  
@@ -731,7 +731,7 @@ BLAST検索のprogram option
      4. Pubmed ID (例えば 12228353） をクリックすると、その遺伝子に言及した論文の情報が表示されます。そこからPubmedに行くこともできます。  
      5. Section Table や Gene Index のなかの sll1867 をクリックすると、当該遺伝子のデータベース中の遺伝子特徴のサマリページが表示されます。そのページ中の Reference 欄に、この遺伝子に言及している全ての論文がマニュアルキュレーションされています。  
 
-4. ExPASy http://www.expasy.org/
+#### 4. ExPASy http://www.expasy.org/ ####
   
    - proteomics に関係したオリジナルツール＆他サイトへのリンクが豊富  
   　
