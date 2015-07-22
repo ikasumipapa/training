@@ -524,12 +524,6 @@
    (INSDC の例) http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=4732164 (F10A2 entry)  
    featuresなどの注釈がどのようについているのか、眺めてみましょう。
   
-#### Three major DNA databanks ####
-
-   - JP: http://www.ddbj.nig.ac.jp/
-   - EU: http://www.ebi.ac.uk/ena/
-   - USA: http://www.ncbi.nlm.nih.gov/Genbank/
-
 #### 遺伝子の「構造 structure」を予測すること ####
 
    DNAは読めるが、それだけでは遺伝子はわからない  
