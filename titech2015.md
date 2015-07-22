@@ -650,12 +650,12 @@ BLAST検索のprogram option
 
    「嘘類似」の問題回避法は？  
    
-     1. 配列類似検索の対象は、信頼できるライブラリから順に使う
+   1. 配列類似検索の対象は、信頼できるライブラリから順に使う
      
-       - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
-       - nr: (see. 2. BLAST Database Content)
-   
-     2. 配列類似検索以外の機能予測方法を用いる
+     - UniProt/SwissProt, UniProt/TrEMBL: http://www.uniprot.org/
+     - nr: (see. 2. BLAST Database Content)
+     
+   2. 配列類似検索以外の機能予測方法を用いる
    
      機能に関わるタンパク質の部分配列（モチーフやドメイン）  
      
