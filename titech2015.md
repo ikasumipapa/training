@@ -330,7 +330,7 @@
      - http://trace.ddbj.nig.ac.jp/jga/  
    ⇒どんどんデータベースが増えている。何故？ ⇒ NGS で配列決定研究が多彩・多数に
 
-------------------------------
+
 
 ###【実習】塩基配列情報へのアクセス ###
 
@@ -397,6 +397,7 @@
    4. 下スクロールして Genome Information, External Information Resources を確認しましょう。GOLD へはここからも行けますね。学名で引かなくて良いのでここから行く方が早そう  
   　　  
    > See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
+
 
 
 ## 2. 配列類似検索 ##
@@ -565,7 +566,8 @@ BLAST検索のprogram option
    E = Kmn^(e-λS)
    そのライブラリで偶然に同じスコアでヒットする本数の期待値  
    ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
-  　
+
+
 
 ## 3. 遺伝子機能予測 ##
 
@@ -644,6 +646,7 @@ EPKPDAPASDTETTSEADSKA
    2. Search Directory から Genes and gene products を選択⇒circadian rhythm関係の遺伝子がリストされる
    3. 任意の遺伝子を選択  
    3. 左ペインの Evidence type を展開してそれぞれのアノテーションの根拠を確認してみよう  
+
 
 
 ## appendix: 時間があれば紹介 ##
