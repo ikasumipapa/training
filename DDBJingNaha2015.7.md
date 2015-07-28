@@ -72,16 +72,17 @@
    1. ARSA  
      - 高速なキーワードによる配列検索・取得
      
-   【実習】ヒトのインターロイキン２の全長遺伝子を含む配列を検索しましょう  
+   【実習】potivirus coat protein の全長遺伝子を含む配列を検索しましょう  
    
      1. DDBJ ARSA で検索、ARSA を開く  
-     1. Quick Search 窓に **Homo sapiens interleukin 2** と入力する  
-       ⇒大量のヒットが得られる。どうもヒト以外もたくさんはいっているようだ  
-     1. Facet の Organism_facet から **Homo sapiens** を選ぶと、ヒトの配列に限定される。だがまだ多いな
-       ⇒interleukin 1 なんかが混入している。"interleukin 2" をセットで検索しましょう  
-     1. Search Condition をひらいて、**Homo sapiens "interleukin 2"** として検索  
+     1. Quick Search 窓に **Potyvirus** と入力する  
+       ⇒大量のヒットが得られる。  
+     1. Facet の Division から **VRL** を選ぶと、virus の配列に限定される。だがまだ多いな  
+     1. Search Condition をひらいて、**Potyvirus coat protein** として検索  
        ⇒だいぶ減ったが、partial な配列が多数あるようだ  
-     1. Search Condition をひらいて、**Homo sapiens "interleukin 2" complete** として検索  
+     1. Search Condition をひらいて、**Potyvirus coat protein complete cds** として検索  
+       ⇒それでも partial な配列が多数あるようだ  
+     1. Search Condition をひらいて、**Potyvirus coat protein "complete cds"** として検索  
        ⇒検索結果を開き、Features（特徴）を確認しよう。  
        ⇒得たい配列にチェックをいれ、フォーマットを選んでダウンロードできます  
      【応用】Advanced Search もお試しください。日付や論文等で絞り込みできます  
@@ -90,11 +91,11 @@
      - 高速な配列取得。配列の ID (accession number) がわかっているときはこちらをどうぞ  
      
      1. DDBJ getentry で検索、getentry を開く  
-     2. ID: 窓に **M22005, M26062, D11086** と入力⇒検索  
+     2. ID: 窓に **L22907, L15331, AF243496** と入力⇒検索  
        ⇒標準では DDBJ フォーマットでまとめて出力されます  
      3. 出力形式: **CDS アミノ酸配列 FASTA** を選んで検索  
        ⇒塩基配列の中から CDS (coding sequence) だけを翻訳した配列が表示される  
-       ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
+       ⇒連番の ID を取りたいときには **L22907-L22910** のように範囲指定できます    
    
    1. GQuery http://www.ncbi.nlm.nih.gov/gquery  
      - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
@@ -236,14 +237,13 @@ BLAST検索のprogram option
    1. DDBJ BLASTを体験しよう  
    
      ```
-     >opsin Rh2(Drosophila melanogaster)  
-     MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL  
-     GLFTLAIMIISCCGNGVVVYIFGGTKSLRTPANLLVLNLAFSDFCMMASQSPVMIINFYY  
-     ETWVLGPLWCDIYAGCGSLFGCVSIWSMCMIAFDRYNVIVKGINGTPMTIKTSIMKILFI  
-     WMMAVFWTVMPLIGWSAYVPEGNLTACSIDYMTRMWNPRSYLITYSLFVYYTPLFLICYS  
-     YWFIIAAVAAHEKAMREQAKKMNVKSLRSSEDCDKSAEGKLAKVALTTISLWFMAWTPYL  
-     VICYFGLFKIDGLTPLTTIWGATFAKTSAVYNPIVYGISHPKYRIVLKEKCPMCVFGNTD  
-     EPKPDAPASDTETTSEADSKA  
+     >coat protein (Watermelon mosaic virus)  
+     MQSGKETVENLDAGKESKKETSDKGNKPQNSQVGQGSKEPTKTG
+     TVSKDVNVGSKGKEVPRLQKITKKMNLPTVGGKIILGLDHLLEYKPNQVDLFNTRATK
+     TQFESWYSAVKVEYDLNDEQMGVIMNGFMVWCIDNGTSPDVNGVWVMMDGEEQVEYPL
+     KPIVENAKPTLRQIMHHFSDAAEAYIEMRNSESPYMPRYGLLRNLRDRELARYAFDFY
+     EVTSKTPNRAREAIAQMKAAALAGINSRLFGLDGNISTNSENTERHTARDVNQNMHTL
+     LGMGPPQ  
      ```
      
      1. http://ddbj.nig.ac.jp/blast/blastn?lang=ja を開く（DDBJ BLAST で検索）  
@@ -252,7 +252,7 @@ BLAST検索のprogram option
      1. **Data Sets** には **UniProt (Swiss-Prot)** を選択（小さいが精度の高いDB）
      1. **Send to BLAST** ボタンをクリック ⇒ 暫し待て
      1. チェックを入れた配列で ClustalW によるマルチプルアラインメントを作成することができます  
-     >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
+     >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0729-0814-28-400-555134 を  
      BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
      
    1. NCBI BLASTを体験しよう  
