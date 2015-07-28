@@ -58,7 +58,7 @@
 
 ## 3. DDBJ や NCBI などで生物系の情報検索 ##
 
-#### ARSA, getentry, DRAsearch ####
+#### DDBJ の キーワード検索: ARSA, getentry ####
   
    【実習】塩基配列情報へのアクセス  
 
@@ -88,19 +88,6 @@
      3. 出力形式: **CDS アミノ酸配列 FASTA** を選んで検索  
        ⇒塩基配列の中から CDS (coding sequence) だけを翻訳した配列が表示される  
        ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
-   
-   1. DRAsearch
-     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
-     
-     SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
-     
-     1. DRAsearch を開く  
-     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
-     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
-     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
-     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
-     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
-     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
 
 #### GQuery http://www.ncbi.nlm.nih.gov/gquery ####
 
@@ -331,7 +318,7 @@ BLAST検索のprogram option
    
    自分でコマンド入力してガシガシつかいたいよってかた＞申請の上、ご利用ください。無料です（今のところ）
 
-### 学術系論文等情報検索  
+## 5. 学術系の文献等情報検索紹介 ##
 
 #### PubMed: http://pubmed.gov ####
   
@@ -415,5 +402,43 @@ BLAST検索のprogram option
 ## おわりに ##
 
    - JGI GOLD: https://gold.jgi-psf.org/
+
+## appendix: 時間があれば紹介 ##
+
+#### 1. DDBJ の NGS アーカイブと、解析パイプライン ####
+
+   - NGS データアーカイブ: DDBJ SRA (DRA) http://trace.ddbj.nig.ac.jp/dra/
+
+   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+
+   1. DRAsearch
+     - DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう。  
+   【実習】DRAsearch を使って興味のある材料／方法論のデータを検索してみましょう
+   
+   SRA は NGS の生データアーカイブです。自分でデータ取得できなくても類縁生物との比較による SNP 発見や発現解析などは公開データを使って実施できる場合があります。  
+   
+     1. DRAsearch を開く  
+     ⇒ http://trace.ddbj.nig.ac.jp/dra/ の上部タブから **Search**  
+     1. Organism に生物種名を指定して StudyType を指定するか、キーワードに列挙して絞り込む  
+     1. ここでは Keyword に **Arabidopsis Transcriptome alternative splicing** と入れて Search  
+     ⇒ Keyword を **Mouse Transcriptome alternative splicing** などご自身の興味のあるもので検索してみてください  
+     ⇒ Accession, Study, Run などの関係性は http://trace.ddbj.nig.ac.jp/dra/submission_e.html から Metadata を参照  
+     1. FASTQ or SRA format のどちらかでのぞみのデータをダウンロードできます。  
+   
+   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
+     - NGS の解析処理を支援するクラウド: DRA pipeline http://p.ddbj.nig.ac.jp/
+   
+     【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
+     
+     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
+     1. 右上の **Login as "guest"** でゲストログイン
+     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
+     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
+     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
+     1. オプションに変更なければ **NEXT**
+     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
+     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
+
+   - スパコンくらい自分でガシガシつかえるよってひと＞「遺伝研」「スーパーコンピュータ」で検索。無料です！
 
 *end*
