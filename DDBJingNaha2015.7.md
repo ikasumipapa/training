@@ -88,53 +88,48 @@
        ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
    
    1. GQuery http://www.ncbi.nlm.nih.gov/gquery  
-   - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
-    
-   【課題】NCBI でヒトのインターロイキン２の全長遺伝子を含む配列情報を検索しましょう  
-   1. GQuery をひらき、眺める（大量のデータベースの複合体）
-   2. interleukin-2 から検索スタート
-   3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
-   4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
-   5. 左下あたりの「Nucleotide ? 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens を選択  
-   6. 検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。  
+     - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
+     
+     【課題】NCBI でヒトのインターロイキン２の全長遺伝子を含む配列情報を検索しましょう  
+     1. GQuery をひらき、眺める（大量のデータベースの複合体）
+     2. interleukin-2 から検索スタート
+     3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
+     4. AND full length cDNA を追加 (interleukin-2 AND full length cDNA で検索)
+     5. 左下あたりの「Nucleotide ? 件」を開いてみると、Mouse などがコンタミしてるので、右ペインの Top Organisms から Homo sapiens を選択  
+     6. 検索結果を開き、それぞれのFeatures（特徴）とそこからのリンクを確認しよう。  
   　　  
-   【応用】: Pubmed で同様に論文を検索しなさい。  
-   【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
+     【応用】: Pubmed で同様に論文を検索しなさい。  
+     【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
    
    1. GOLD: http://www.genomesonline.org  
    -世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース  
-   
-   1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
-   2. 終了したプロジェクト: Complete Projects
-   3. 進行中のプロジェクト: Incomplete Projects
-   4. アナウンスされているプロジェクト: Targeted Projects
+     
+     1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
+     2. 終了したプロジェクト: Complete Projects
+     3. 進行中のプロジェクト: Incomplete Projects
+     4. アナウンスされているプロジェクト: Targeted Projects
   　　  
-   - 生物の種名の調べ方
-   　　いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
+     - 生物の種名の調べ方
+   　  　いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
   　　  
-   【実習】大腸菌O111ゲノムは決められている？  
-   【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？  
-   【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
+     【実習】大腸菌O111ゲノムは決められている？  
+     【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？  
+     【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
   　　  
    See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
    
    1. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/taxonomy  
-   
-   - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
-   【実習】あなたが興味のある生物種のプロジェクトはないかNCBI Taxonomy で調べてみよう （例：Arabidopsis, cat, mouse, … あなたの研究対象／興味のある生物でどうぞ）  
-
-   1. 生物名（common name ＝一般名 も可）で検索できます。  
-   2. 右ペインの  Entrez records から、その生物種の NCBI のリソースにおさめられている DB を展開してみましょう（Nucleotide〜Genome, PopSet, GEO, SRA, BioProject, BioSample, BioSystems, …）  
-   3. 下部の Lineage から類縁の生物種を展開してみましょう  
-   4. 下スクロールして Genome Information, External Information Resources を確認しましょう。GOLD へはここからも行けますね。学名で引かなくて良いのでここから行く方が早そう  
+     - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
+     【実習】あなたが興味のある生物種のプロジェクトはないかNCBI Taxonomy で調べてみよう （例：Arabidopsis, cat, mouse, … あなたの研究対象／興味のある生物でどうぞ）  
+      
+     1. 生物名（common name ＝一般名 も可）で検索できます。  
+     2. 右ペインの  Entrez records から、その生物種の NCBI のリソースにおさめられている DB を展開してみましょう（Nucleotide〜Genome, PopSet, GEO, SRA, BioProject, BioSample, BioSystems, …）  
+     3. 下部の Lineage から類縁の生物種を展開してみましょう  
+     4. 下スクロールして Genome Information, External Information Resources を確認しましょう。GOLD へはここからも行けますね。学名で引かなくて良いのでここから行く方が早そう  
   　　  
-   See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
-
-  　
+     See also: 統合TV「NCBI Taxonomy Browserを使って、生物分類と配列情報を関連させて調べる」 http://togotv.dbcls.jp/20090226.html
 
 ## 4. DDBJ や NCBI で解析 ##
-
-DDBJ BLAST と DDBJ pipeline の紹介
 
 ### 配列の類似検索 (BLAST) ###
 
