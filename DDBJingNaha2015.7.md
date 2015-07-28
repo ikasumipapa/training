@@ -105,16 +105,15 @@
    1. GOLD: http://www.genomesonline.org  
      - 世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース  
      
-     1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
-     2. 終了したプロジェクト: Complete Projects
-     3. 進行中のプロジェクト: Incomplete Projects
-     4. アナウンスされているプロジェクト: Targeted Projects
-  　　  
-     - 生物の種名の調べ方 ⇒ いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
-     【実習】大腸菌O111ゲノムは決められている？  
-     【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？  
-     【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
-  　　  
+     1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes  
+     2. 終了したプロジェクト: Complete Projects  
+     3. 進行中のプロジェクト: Incomplete Projects  
+   
+   - 生物の種名の調べ方 ⇒ いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
+   【実習】大腸菌O111ゲノムは決められている？  
+   【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？  
+   【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
+   
    See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
    
    1. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/taxonomy  
