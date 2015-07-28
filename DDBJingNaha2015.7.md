@@ -58,10 +58,8 @@
 
 ## 3. DDBJ や NCBI などで生物系の情報検索 ##
 
-#### DDBJ の キーワード検索: ARSA, getentry ####
+#### 塩基配列やゲノムプロジェクト等のキーワード検索 ####
   
-   【実習】塩基配列情報へのアクセス  
-
    1. ARSA  
      - 高速なキーワードによる配列検索・取得
      
@@ -88,13 +86,11 @@
      3. 出力形式: **CDS アミノ酸配列 FASTA** を選んで検索  
        ⇒塩基配列の中から CDS (coding sequence) だけを翻訳した配列が表示される  
        ⇒連番の ID を取りたいときには **M22005-M22010** のように範囲指定できます    
-
-#### GQuery http://www.ncbi.nlm.nih.gov/gquery ####
-
+   
+   1. GQuery http://www.ncbi.nlm.nih.gov/gquery  
    - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
     
    【課題】NCBI でヒトのインターロイキン２の全長遺伝子を含む配列情報を検索しましょう  
-  
    1. GQuery をひらき、眺める（大量のデータベースの複合体）
    2. interleukin-2 から検索スタート
    3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
@@ -104,11 +100,10 @@
   　　  
    【応用】: Pubmed で同様に論文を検索しなさい。  
    【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
-  
-#### GOLD: http://www.genomesonline.org ####
-
-   *世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース*
-
+   
+   1. GOLD: http://www.genomesonline.org  
+   -世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース  
+   
    1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
    2. 終了したプロジェクト: Complete Projects
    3. 進行中のプロジェクト: Incomplete Projects
@@ -122,9 +117,9 @@
    【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
   　　  
    See also: 統合TV「GOLD -Genomes Online Databaseを使い倒す 2013」http://togotv.dbcls.jp/20131029.html
-
-#### NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/taxonomy ####
-
+   
+   1. NCBI Taxonomy: http://www.ncbi.nlm.nih.gov/taxonomy  
+   
    - 生物分類と配列情報を関連させて調べたい場合にはここ。30万種以上の生物が網羅されています。分類体系は独自な場合もあるので注意   
    【実習】あなたが興味のある生物種のプロジェクトはないかNCBI Taxonomy で調べてみよう （例：Arabidopsis, cat, mouse, … あなたの研究対象／興味のある生物でどうぞ）  
 
@@ -292,33 +287,19 @@ BLAST検索のprogram option
      16. 右の Exclude をチェックすることで、特定の生物種（群）を除外することもできます。これ便利な
      17. 結果上部のリンク「Download」から結果の csvでのダウンロードができます＞Excel に読み込んで結果の保存や一致の length や % でのソートが可能
   　
-  
+   
    【参考】: cDNAやESTのゲノムへのマッピング（貼り付け）は、BLATのほうがよい。ただしWWWで検索できる生物種はほとんどが animal。上記リンクで確認しよう。  
    【応用】: 検索結果で得られた類似な配列をまとめどりしよう統合TV本家: http://togotv.dbcls.jp/20070926.html (YouTube版: http://www.youtube.com/watch?v=RhTmgpOIUIw ) を参照  
    【応用】: PSI-BLASTを使うと、類似が低いが遠縁であるような配列を捕まえることもできます。上記の配列で実行してみましょう。統合TV本家: http://togotv.dbcls.jp/20071016.html (YouTube版: http://www.youtube.com/watch?v=iIufC3uNlEk ) を参照  
    【応用】「マトリクス」をかえて検索してみましょう。  
    【応用】table format は大量にサーチする際に便利です。結果をダウンロードして、エクセルで開いてみよう  
-  
+   
     *e-valueとは？*  
    E = Kmn^(e-λS)
    そのライブラリで偶然に同じスコアでヒットする本数の期待値  
    ライブラリの大きさ／内容が違うと e-value は違うから単純には比較できないぞ。注意  
-   
-   2. NGS の解析処理支援: DDBJ pipeline http://p.ddbj.nig.ac.jp/  
-    【デモ】右上の Login as “guest” から利用イメージをみてみましょう  
-     
-     1. https://p.ddbj.nig.ac.jp/ を開く（DDBJ pipeline で検索）  
-     1. 右上の **Login as "guest"** でゲストログイン
-     1. DRA000001 の DRX000001 にチェックを入れて **NEXT**
-     1. **de novo Assembly** をチェック、**velvet** をチェック **NEXT**
-     1. DRR000001 にチェック、**set as pair end** を選び **NEXT**
-     1. オプションに変更なければ **NEXT**
-     1. e-mail アドレスを入力し、右上の **RUN** (guest の場合は実行不可)  
-     >See also: 統合TV「今日からはじめるDDBJ Read Annotation Pipeline」http://togotv.dbcls.jp/20100617.html  
-   
-   自分でコマンド入力してガシガシつかいたいよってかた＞申請の上、ご利用ください。無料です（今のところ）
 
-## 5. 学術系の文献等情報検索紹介 ##
+## 5. 学術系の文献等情報検索サイト紹介 ##
 
 #### PubMed: http://pubmed.gov ####
   
@@ -344,8 +325,6 @@ BLAST検索のprogram option
     【応用】: PubMedに収録されているすべての論文数を知りたい場合には？  
     本家: http://togotv.dbcls.jp/20071213.html (YouTube版: http://www.youtube.com/watch?v=Or5QeVMlzMQ ) を参照 (All[filter] で検索)
 
-------------------------------
-
 #### Google Scholar http://scholar.google.com ####
   
    - 学術系のgoogle検索
@@ -365,8 +344,6 @@ BLAST検索のprogram option
     
    【応用】h-index ( http://ja.wikipedia.org/wiki/H%E6%8C%87%E6%95%B0 ) は学者の論文数と被引用数とに基づいて、科学者の科学的貢献度を示す指標です。google scholar を利用すると比較的簡単に h-index を出すことができます。引用の多い順に文献の検索結果がならんでいますので、被引用数が、リストの上からのカウントを上回ったらそのひとつ手前のカウントが h-index です。
 
-------------------------------
-
 #### OReFiL: an Online Resource Finder for Lifesciences http://orefil.dbcls.jp/ ####
   
    - ライフサイエンス分野の文献に記載されているウェブリソース(データベースやツールなど)を検索するならこれ
@@ -375,8 +352,6 @@ BLAST検索のprogram option
    【課題】 codon usage をアレコレするためのWWWサイトで、報告されているものに、どのようなものがあるだろうか？OReFiLで調べましょう
   
     See also: 統合TV「OReFiLを使ってライフサイエンス分野のwebリソースを検索する」 http://togotv.dbcls.jp/20070831.html  
-
-------------------------------
 
 #### Allie: A Search Service for Abbreviation / Long Form http://allie.dbcls.jp/ja ####
   
@@ -387,8 +362,6 @@ BLAST検索のprogram option
    【課題】 SPF という略語は生活や生物学研究のさまざまな場面で目にしますが、それらは何の略語で？Allieで調べましょう  
   
    See also: 統合TV「Allieを使って略語の正式名称を検索する」 http://togotv.dbcls.jp/20080522.html  
-
-------------------------------
 
 #### difff: 日本語対応で簡単に差分が確認できるテキスト比較ツール http://difff.jp ####
   
@@ -403,7 +376,9 @@ BLAST検索のprogram option
 
    - JGI GOLD: https://gold.jgi-psf.org/
 
-## appendix: 時間があれば紹介 ##
+
+
+### appendix: 時間があれば紹介 ###
 
 #### 1. DDBJ の NGS アーカイブと、解析パイプライン ####
 
