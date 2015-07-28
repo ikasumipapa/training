@@ -271,8 +271,7 @@ BLAST検索のprogram option
      >結果が帰ってこない時には **Resurt viewer** に wabi_blast_2015-0717-1754-11-479-233186 を  
      BLAST Help もご一読ください: https://www.ddbj.nig.ac.jp/search/help/blasthelp-j.html  
      
-     - NCBI BLASTを体験しよう  
-   
+   1. NCBI BLASTを体験しよう  
      ```
      >opsin Rh2(Drosophila melanogaster)  
      MERSHLPETPFDLAHSGPRFQAQSSGNGSVLDNVLPDMAHLVNPYWSRFAPMDPMMSKIL  
