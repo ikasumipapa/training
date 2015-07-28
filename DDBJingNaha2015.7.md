@@ -91,6 +91,7 @@
      - National Center for Biotechnology Information (NCBI)の、配列と論文に関連した情報を何でも引けるNCBIの生物系検索決定版
      
      【課題】NCBI でヒトのインターロイキン２の全長遺伝子を含む配列情報を検索しましょう  
+     
      1. GQuery をひらき、眺める（大量のデータベースの複合体）
      2. interleukin-2 から検索スタート
      3. AND human を追加して絞ってみる (interleukin-2 AND human で検索)
@@ -102,7 +103,7 @@
      【応用】: 右上の Sign in to NCBI からログインすると、どのようなすばらしいサービスが受けられるのかを確認しよう。まだ使ってない人は登録して他のラボメンバーに差をつけよう。  
    
    1. GOLD: http://www.genomesonline.org  
-   -世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース  
+     - 世界中のゲノムプロジェクトとESTプロジェクトを網羅したすごいデータベース  
      
      1. メタゲノムプロジェクト（複数の生物をまとめて読んでしまうやりかた） metagenomes
      2. 終了したプロジェクト: Complete Projects
