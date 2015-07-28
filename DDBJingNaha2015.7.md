@@ -109,7 +109,7 @@
      2. 終了したプロジェクト: Complete Projects  
      3. 進行中のプロジェクト: Incomplete Projects  
    
-   - 生物の種名の調べ方 ⇒ いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
+     - 生物の種名の調べ方 ⇒ いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
    【実習】大腸菌O111ゲノムは決められている？  
    【実習】大腸菌のゲノムプロジェクトはいくつ存在？そのうち、完成して発表 (Complete and Published) されたプロジェクトはいくつか？  
    【実習】ネコゲノムプロジェクトって存在する？そのフェイズは？  
