@@ -110,7 +110,7 @@
      3. 進行中のプロジェクト: Incomplete Projects
      4. アナウンスされているプロジェクト: Targeted Projects
   　　  
-     - 生物の種名の調べ方
+     - 生物の種名の調べ方  
    　  　いきなりgoogleとかでもいいんですよ http://www.google.co.jp/  
   　　  
      【実習】大腸菌O111ゲノムは決められている？  
